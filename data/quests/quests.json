@@ -1,0 +1,480 @@
+{
+	"version": 1,
+	"start": "main_diary",
+	"requests": {
+		"chance": 0.4,
+		"days": 2,
+		"reward_multiplier": 2.0,
+		"friendship": 40,
+		"max_active": 3
+	},
+	"quests": [
+		{
+			"id": "main_diary",
+			"kind": "main",
+			"title": {
+				"pt_BR": "O diário da vovó",
+				"en": "Grandma's diary"
+			},
+			"desc": {
+				"pt_BR": "A estante da Casa da Vovó guarda o diário dela. Leia-o.",
+				"en": "The shelf in Grandma's House holds her diary. Read it."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "read_diary",
+					"count": 1
+				}
+			],
+			"reward": {
+				"money": 0,
+				"diary": 1
+			},
+			"next": "main_first_flowers"
+		},
+		{
+			"id": "main_first_flowers",
+			"kind": "main",
+			"title": {
+				"pt_BR": "Primeiras flores",
+				"en": "First flowers"
+			},
+			"desc": {
+				"pt_BR": "“Toda jornada começa com uma flor.” Colha 5 flores na fazenda.",
+				"en": "“Every journey starts with a flower.” Harvest 5 flowers on the farm."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "harvest",
+					"count": 5
+				}
+			],
+			"reward": {
+				"money": 200,
+				"diary": 2
+			},
+			"next": "main_meet"
+		},
+		{
+			"id": "main_meet",
+			"kind": "main",
+			"title": {
+				"pt_BR": "Conhecer os vizinhos",
+				"en": "Meet the neighbours"
+			},
+			"desc": {
+				"pt_BR": "A vovó conhecia todos no vale. Converse com 4 moradores.",
+				"en": "Grandma knew everyone in the valley. Talk to 4 villagers."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "meet",
+					"count": 4
+				}
+			],
+			"reward": {
+				"money": 150,
+				"diary": 3
+			},
+			"next": "main_roses"
+		},
+		{
+			"id": "main_roses",
+			"kind": "main",
+			"title": {
+				"pt_BR": "Cultivar dez rosas",
+				"en": "Grow ten roses"
+			},
+			"desc": {
+				"pt_BR": "As rosas eram o orgulho da vovó. Colha 10 rosas (lembre-se: elas precisam de adubo).",
+				"en": "Roses were Grandma's pride. Harvest 10 roses (remember: they need fertiliser)."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "harvest",
+					"target": "rose",
+					"count": 10
+				}
+			],
+			"reward": {
+				"money": 400,
+				"diary": 4
+			},
+			"next": "main_florist"
+		},
+		{
+			"id": "main_florist",
+			"kind": "main",
+			"title": {
+				"pt_BR": "A floricultura da vovó",
+				"en": "Grandma's flower shop"
+			},
+			"desc": {
+				"pt_BR": "Reforme a antiga floricultura no vilarejo.",
+				"en": "Restore the old flower shop in the village."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "restore_florist",
+					"count": 1
+				}
+			],
+			"reward": {
+				"money": 0,
+				"diary": 5
+			},
+			"next": "main_bouquet"
+		},
+		{
+			"id": "main_bouquet",
+			"kind": "main",
+			"title": {
+				"pt_BR": "O primeiro buquê",
+				"en": "The first bouquet"
+			},
+			"desc": {
+				"pt_BR": "Monte um buquê na mesa de arranjos da floricultura.",
+				"en": "Make a bouquet at the flower shop's arranging table."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "craft",
+					"count": 1
+				}
+			],
+			"reward": {
+				"money": 150,
+				"diary": 6
+			},
+			"next": "main_celeste"
+		},
+		{
+			"id": "main_celeste",
+			"kind": "main",
+			"title": {
+				"pt_BR": "Flores para Celeste",
+				"en": "Flowers for Celeste"
+			},
+			"desc": {
+				"pt_BR": "A vovó levava um buquê romântico para Celeste todo ano. Entregue um a ela.",
+				"en": "Grandma brought Celeste a romantic bouquet every year. Deliver one to her."
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "celeste",
+					"items": [
+						[
+							"bouquet_romantic",
+							1
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 200,
+				"diary": 7,
+				"friendship": {
+					"celeste": 150
+				}
+			},
+			"next": "main_rare"
+		},
+		{
+			"id": "main_rare",
+			"kind": "main",
+			"title": {
+				"pt_BR": "A flor rara",
+				"en": "The rare flower"
+			},
+			"desc": {
+				"pt_BR": "Encontre a pedra antiga no Bosque das Flores Raras.",
+				"en": "Find the ancient stone in the Grove of Rare Flowers."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "discover",
+					"target": "rare_stone",
+					"count": 1
+				}
+			],
+			"reward": {
+				"money": 300,
+				"diary": 8,
+				"items": [
+					[
+						"forage_glow_moss",
+						2
+					]
+				]
+			},
+			"next": "main_square"
+		},
+		{
+			"id": "main_square",
+			"kind": "main",
+			"title": {
+				"pt_BR": "A praça do vilarejo",
+				"en": "The village square"
+			},
+			"desc": {
+				"pt_BR": "Ajude Bento a recuperar a praça: leve 20 pedras e 10 fibras para ele.",
+				"en": "Help Bento restore the square: bring him 20 stone and 10 fiber."
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "bento",
+					"items": [
+						[
+							"stone",
+							20
+						],
+						[
+							"fiber",
+							10
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 500,
+				"diary": 9,
+				"friendship": {
+					"*": 50
+				}
+			},
+			"next": "main_greenhouse"
+		},
+		{
+			"id": "main_greenhouse",
+			"kind": "main",
+			"title": {
+				"pt_BR": "Recuperar a antiga estufa",
+				"en": "Restore the old greenhouse"
+			},
+			"desc": {
+				"pt_BR": "A estufa da vovó está em ruínas, ao lado do poço. Reforme-a (1.500 ✿, 30 pedras, 20 fibras e 3 ametistas).",
+				"en": "Grandma's greenhouse lies in ruins by the well. Restore it (1,500 ✿, 30 stone, 20 fiber and 3 amethysts)."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "restore_greenhouse",
+					"count": 1
+				}
+			],
+			"reward": {
+				"money": 0,
+				"diary": 10,
+				"items": [
+					[
+						"seed_orchid",
+						3
+					]
+				]
+			},
+			"next": ""
+		},
+		{
+			"id": "side_celeste_tea",
+			"kind": "side",
+			"giver": "celeste",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "Chá de lavanda",
+				"en": "Lavender tea"
+			},
+			"desc": {
+				"pt_BR": "Querida, posso te pedir um favor? Meu estoque de lavanda acabou e não fico sem meu chá. Você me traria 5 lavandas?",
+				"en": "Dear, may I ask a favour? I've run out of lavender and I can't live without my tea. Would you bring me 5 lavenders?"
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "celeste",
+					"items": [
+						[
+							"flower_lavender",
+							5
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 350,
+				"friendship": {
+					"celeste": 100
+				}
+			},
+			"next": ""
+		},
+		{
+			"id": "side_livia_cake",
+			"kind": "side",
+			"giver": "livia",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "O bolo de rosas",
+				"en": "The rose cake"
+			},
+			"desc": {
+				"pt_BR": "Preciso de um favorzinho: estou quase acertando o bolo de rosas perfeito! Me traz 3 rosas?",
+				"en": "I need a little favour: I'm close to the perfect rose cake! Can you bring me 3 roses?"
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "livia",
+					"items": [
+						[
+							"flower_rose",
+							3
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 300,
+				"friendship": {
+					"livia": 100
+				}
+			},
+			"next": ""
+		},
+		{
+			"id": "side_tomas_history",
+			"kind": "side",
+			"giver": "tomas",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "A história do vale",
+				"en": "The valley's history"
+			},
+			"desc": {
+				"pt_BR": "Estou escrevendo sobre os marcos antigos do vale. Você encontraria três deles para mim? Pode ser qualquer um.",
+				"en": "I'm writing about the valley's old landmarks. Would you find three of them for me? Any of them will do."
+			},
+			"objectives": [
+				{
+					"type": "event",
+					"event": "discover",
+					"count": 3
+				}
+			],
+			"reward": {
+				"money": 300,
+				"friendship": {
+					"tomas": 100
+				}
+			},
+			"next": ""
+		},
+		{
+			"id": "side_benicio_shells",
+			"kind": "side",
+			"giver": "benicio",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "Conchas da sorte",
+				"en": "Lucky shells"
+			},
+			"desc": {
+				"pt_BR": "Dizem que conchas trazem sorte para pescador. Me traz 5 delas da praia do lago?",
+				"en": "They say shells bring fishermen luck. Bring me 5 from the lake beach?"
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "benicio",
+					"items": [
+						[
+							"forage_shell",
+							5
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 250,
+				"friendship": {
+					"benicio": 100
+				}
+			},
+			"next": ""
+		},
+		{
+			"id": "side_aurora_painting",
+			"kind": "side",
+			"giver": "aurora",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "Modelo para pintura",
+				"en": "A model for a painting"
+			},
+			"desc": {
+				"pt_BR": "Preciso de um modelo para minha próxima pintura: um arranjo só com flores silvestres. Você montaria um para mim?",
+				"en": "I need a model for my next painting: an arrangement of wildflowers only. Would you make one for me?"
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "aurora",
+					"items": [
+						[
+							"bouquet_wild",
+							1
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 320,
+				"friendship": {
+					"aurora": 100
+				}
+			},
+			"next": ""
+		},
+		{
+			"id": "side_bento_stone",
+			"kind": "side",
+			"giver": "bento",
+			"requires_hearts": 2,
+			"title": {
+				"pt_BR": "Pedra para a oficina",
+				"en": "Stone for the workshop"
+			},
+			"desc": {
+				"pt_BR": "Tô precisando de pedra pra reforçar a oficina. Me traz 15? Eu pago.",
+				"en": "I need stone to reinforce the workshop. Bring me 15? I'll pay."
+			},
+			"objectives": [
+				{
+					"type": "deliver",
+					"npc": "bento",
+					"items": [
+						[
+							"stone",
+							15
+						]
+					]
+				}
+			],
+			"reward": {
+				"money": 300,
+				"friendship": {
+					"bento": 100
+				}
+			},
+			"next": ""
+		}
+	]
+}

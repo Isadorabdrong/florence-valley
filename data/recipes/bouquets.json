@@ -1,0 +1,262 @@
+{
+	"version": 1,
+	"comment": "Recipes are checked in order; the first one whose ingredients match the 3 chosen items wins. Ingredient = {item} | {any: [items]} | {tag}, with optional count.",
+	"recipes": [
+		{
+			"id": "bouquet_crown",
+			"type": "rare",
+			"value": 2100,
+			"reputation": 12,
+			"icon": 12,
+			"ingredients": [
+				{
+					"item": "flower_golden_rose"
+				},
+				{
+					"item": "flower_moon_flower"
+				},
+				{
+					"item": "flower_star_flower"
+				}
+			]
+		},
+		{
+			"id": "bouquet_celestial",
+			"type": "rare",
+			"value": 2000,
+			"reputation": 12,
+			"icon": 13,
+			"ingredients": [
+				{
+					"item": "flower_celestial_lily"
+				},
+				{
+					"item": "flower_blue_orchid"
+				},
+				{
+					"item": "forage_glow_moss"
+				}
+			]
+		},
+		{
+			"id": "bouquet_rare",
+			"type": "rare",
+			"value": 520,
+			"reputation": 6,
+			"icon": 8,
+			"ingredients": [
+				{
+					"item": "forage_lotus"
+				},
+				{
+					"item": "flower_lily"
+				},
+				{
+					"item": "forage_glow_moss"
+				}
+			]
+		},
+		{
+			"id": "bouquet_oriental",
+			"type": "sophisticated",
+			"value": 600,
+			"reputation": 5,
+			"icon": 10,
+			"ingredients": [
+				{
+					"item": "flower_orchid"
+				},
+				{
+					"item": "flower_iris"
+				},
+				{
+					"item": "flower_lotus"
+				}
+			]
+		},
+		{
+			"id": "bouquet_elegant",
+			"type": "sophisticated",
+			"value": 380,
+			"reputation": 4,
+			"icon": 5,
+			"ingredients": [
+				{
+					"item": "flower_lily"
+				},
+				{
+					"item": "flower_lavender"
+				},
+				{
+					"item": "flower_rose"
+				}
+			]
+		},
+		{
+			"id": "bouquet_peony",
+			"type": "romantic",
+			"value": 380,
+			"reputation": 4,
+			"icon": 9,
+			"ingredients": [
+				{
+					"item": "flower_peony",
+					"count": 2
+				},
+				{
+					"tag": "romantic"
+				}
+			]
+		},
+		{
+			"id": "bouquet_romantic",
+			"type": "romantic",
+			"value": 330,
+			"reputation": 3,
+			"icon": 4,
+			"ingredients": [
+				{
+					"item": "flower_rose",
+					"count": 2
+				},
+				{
+					"tag": "romantic"
+				}
+			]
+		},
+		{
+			"id": "bouquet_autumn",
+			"type": "seasonal",
+			"season": 2,
+			"value": 360,
+			"reputation": 3,
+			"icon": 11,
+			"ingredients": [
+				{
+					"item": "flower_dahlia",
+					"count": 2
+				},
+				{
+					"tag": "decor"
+				}
+			]
+		},
+		{
+			"id": "bouquet_blossom",
+			"type": "seasonal",
+			"season": 0,
+			"value": 270,
+			"reputation": 3,
+			"icon": 14,
+			"ingredients": [
+				{
+					"item": "flower_cherry_blossom",
+					"count": 2
+				},
+				{
+					"item": "forage_cherry_branch"
+				}
+			]
+		},
+		{
+			"id": "bouquet_spring",
+			"type": "seasonal",
+			"season": 0,
+			"value": 220,
+			"reputation": 2,
+			"icon": 2,
+			"ingredients": [
+				{
+					"item": "flower_tulip"
+				},
+				{
+					"item": "flower_daisy"
+				},
+				{
+					"any": [
+						"forage_cherry_branch",
+						"forage_violet"
+					]
+				}
+			]
+		},
+		{
+			"id": "bouquet_summer",
+			"type": "seasonal",
+			"season": 1,
+			"value": 260,
+			"reputation": 2,
+			"icon": 3,
+			"ingredients": [
+				{
+					"item": "flower_sunflower"
+				},
+				{
+					"item": "flower_lavender"
+				},
+				{
+					"any": [
+						"forage_poppy",
+						"flower_daisy"
+					]
+				}
+			]
+		},
+		{
+			"id": "bouquet_winter",
+			"type": "seasonal",
+			"season": 3,
+			"value": 200,
+			"reputation": 2,
+			"icon": 7,
+			"ingredients": [
+				{
+					"item": "forage_snowdrop",
+					"count": 2
+				},
+				{
+					"tag": "decor"
+				}
+			]
+		},
+		{
+			"id": "bouquet_wild",
+			"type": "seasonal",
+			"value": 170,
+			"reputation": 2,
+			"icon": 6,
+			"ingredients": [
+				{
+					"tag": "wild",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "bouquet_daisy",
+			"type": "simple",
+			"value": 130,
+			"reputation": 1,
+			"icon": 1,
+			"ingredients": [
+				{
+					"item": "flower_daisy",
+					"count": 3
+				}
+			]
+		},
+		{
+			"id": "bouquet_simple",
+			"type": "simple",
+			"value": 110,
+			"reputation": 1,
+			"icon": 0,
+			"ingredients": [
+				{
+					"tag": "flower",
+					"count": 3
+				}
+			]
+		}
+	]
+}

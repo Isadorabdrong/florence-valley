@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/forage_spot.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/characters/shadow.png" id="2"]
+
+[node name="ForageSpot" type="Node2D" groups=["forage_spot"]]
+script = ExtResource("1")
+
+[node name="Shadow" type="Sprite2D" parent="."]
+position = Vector2(0, -3)
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2")
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(0, -9)

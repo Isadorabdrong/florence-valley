@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"iris"
+name_key = "FLOWER_IRIS"
+description_key = "FLOWER_IRIS_DESC"
+seasons = Array[int]([0, 1])
+stage_days = PackedInt32Array(1, 1, 2, 2, 1)
+water_need = 2
+sell_price = 120
+seed_price = 42
+rarity = 1
+regrows = false
+regrow_stage = 3
+special = 2
+seed_drop_chance = 0.2
+atlas_row = 10
+min_level = 2
+tags = PackedStringArray("elegant")

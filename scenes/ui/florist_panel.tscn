@@ -1,0 +1,137 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/florist_panel.gd" id="1"]
+
+[node name="FloristPanel" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1")
+
+[node name="Dim" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.1686, 0.1216, 0.1804, 0.45)
+
+[node name="Center" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="PanelContainer" parent="Center"]
+custom_minimum_size = Vector2(470, 0)
+layout_mode = 2
+
+[node name="VBox" type="VBoxContainer" parent="Center/Panel"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="Header" type="HBoxContainer" parent="Center/Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="Title" type="Label" parent="Center/Panel/VBox/Header"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.6118, 0.3098, 0.4471, 1.0)
+theme_override_font_sizes/font_size = 14
+text = "FLORIST_TITLE"
+size_flags_horizontal = 3
+[node name="ShopStatus" type="Label" parent="Center/Panel/VBox/Header"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_font_sizes/font_size = 10
+
+[node name="ShopMoney" type="Label" parent="Center/Panel/VBox/Header"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_colors/font_color = Color(0.5412, 0.3647, 0.2471, 1.0)
+theme_override_font_sizes/font_size = 11
+
+
+[node name="SubHeader" type="HBoxContainer" parent="Center/Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="ShopStars" type="Label" parent="Center/Panel/VBox/SubHeader"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_colors/font_color = Color(0.8784, 0.4784, 0.6039, 1.0)
+theme_override_font_sizes/font_size = 10
+size_flags_horizontal = 3
+[node name="OpenToggle" type="Button" parent="Center/Panel/VBox/SubHeader"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "FLORIST_OPEN_SHOP"
+
+
+[node name="Tabs" type="HBoxContainer" parent="Center/Panel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="TabDisplays" type="Button" parent="Center/Panel/VBox/Tabs"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "FLORIST_TAB_DISPLAYS"
+
+[node name="TabOrders" type="Button" parent="Center/Panel/VBox/Tabs"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "FLORIST_TAB_ORDERS"
+
+[node name="TabUpgrades" type="Button" parent="Center/Panel/VBox/Tabs"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "FLORIST_TAB_UPGRADES"
+
+[node name="TabReport" type="Button" parent="Center/Panel/VBox/Tabs"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "FLORIST_TAB_REPORT"
+
+
+[node name="Scroll" type="ScrollContainer" parent="Center/Panel/VBox"]
+custom_minimum_size = Vector2(0, 200)
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="FloristList" type="VBoxContainer" parent="Center/Panel/VBox/Scroll"]
+unique_name_in_owner = true
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 4
+
+[node name="Footer" type="HBoxContainer" parent="Center/Panel/VBox"]
+layout_mode = 2
+
+[node name="FloristFeedback" type="Label" parent="Center/Panel/VBox/Footer"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_colors/font_color = Color(0.4157, 0.4980, 0.3059, 1.0)
+theme_override_font_sizes/font_size = 9
+size_flags_horizontal = 3
+autowrap_mode = 3
+[node name="CloseFlorist" type="Button" parent="Center/Panel/VBox/Footer"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_font_sizes/font_size = 10
+text = "CLOSE"
+

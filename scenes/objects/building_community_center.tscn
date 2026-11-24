@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3]
+[ext_resource type="Script" path="res://scripts/world/night_light.gd" id="nl"]
+
+[ext_resource type="Texture2D" path="res://assets/buildings/community_center.png" id="1"]
+[ext_resource type="Script" path="res://scripts/world/interactable_prop.gd" id="2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_base"]
+size = Vector2(108, 44)
+
+[node name="BuildingCommunityCenter" type="StaticBody2D"]
+collision_mask = 0
+script = ExtResource("2")
+object_kind = &"interact"
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("1")
+centered = false
+offset = Vector2(-64, -107)
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2(0, -23)
+shape = SubResource("RectangleShape2D_base")
+
+[node name="NightLight" type="PointLight2D" parent="."]
+position = Vector2(0, -32)
+script = ExtResource("nl")
+max_energy = 0.8
+radius = 46.0

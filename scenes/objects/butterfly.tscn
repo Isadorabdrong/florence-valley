@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/butterfly.gd" id="1"]
+[ext_resource type="Texture2D" path="res://assets/environments/butterflies.png" id="2"]
+
+[node name="Butterfly" type="Node2D" groups=["butterflies"]]
+z_index = 2
+script = ExtResource("1")
+
+[node name="Sprite" type="Sprite2D" parent="."]
+texture = ExtResource("2")
+region_enabled = true
+region_rect = Rect2(0, 0, 8, 6)

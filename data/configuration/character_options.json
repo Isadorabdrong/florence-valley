@@ -1,0 +1,10 @@
+{
+	"version": 1,
+	"outfit_source": { "main": "6f8fc0", "shade": "52709f" },
+	"outfits": [
+		{ "id": "soft_blue", "name_key": "OUTFIT_SOFT_BLUE", "main": "6f8fc0", "shade": "52709f" },
+		{ "id": "old_rose", "name_key": "OUTFIT_OLD_ROSE", "main": "c77d93", "shade": "9e5a72" },
+		{ "id": "lavender", "name_key": "OUTFIT_LAVENDER", "main": "9d8bc9", "shade": "7865a6" },
+		{ "id": "sage", "name_key": "OUTFIT_SAGE", "main": "86a37a", "shade": "62805a" }
+	]
+}

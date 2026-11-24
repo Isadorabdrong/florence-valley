@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"moon_flower"
+name_key = "FLOWER_MOON_FLOWER"
+description_key = "FLOWER_MOON_FLOWER_DESC"
+seasons = Array[int]([2, 3])
+stage_days = PackedInt32Array(2, 2, 2, 3, 2)
+water_need = 0
+sell_price = 520
+seed_price = 180
+rarity = 2
+regrows = false
+regrow_stage = 3
+special = 0
+seed_drop_chance = 0.08
+atlas_row = 13
+min_level = 6
+tags = PackedStringArray("rare")

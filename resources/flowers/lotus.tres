@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"lotus"
+name_key = "FLOWER_LOTUS"
+description_key = "FLOWER_LOTUS_DESC"
+seasons = Array[int]([1])
+stage_days = PackedInt32Array(2, 2, 2, 2, 2)
+water_need = 2
+sell_price = 200
+seed_price = 75
+rarity = 1
+regrows = false
+regrow_stage = 3
+special = 2
+seed_drop_chance = 0.15
+atlas_row = 11
+min_level = 4
+tags = PackedStringArray("elegant")

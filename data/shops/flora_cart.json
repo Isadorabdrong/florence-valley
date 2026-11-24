@@ -1,0 +1,48 @@
+{
+	"id": "flora_cart",
+	"name_key": "SHOP_FLORA_CART",
+	"greeting_key": "SHOP_FLORA_CART_GREETING",
+	"sell_multiplier": 1.0,
+	"stock": [
+		{
+			"item": "seed_daisy"
+		},
+		{
+			"item": "seed_tulip"
+		},
+		{
+			"item": "seed_rose"
+		},
+		{
+			"item": "seed_sunflower"
+		},
+		{
+			"item": "seed_lavender"
+		},
+		{
+			"item": "seed_lily"
+		},
+		{
+			"item": "seed_peony"
+		},
+		{
+			"item": "seed_cherry_blossom"
+		},
+		{
+			"item": "seed_iris"
+		},
+		{
+			"item": "seed_orchid"
+		},
+		{
+			"item": "seed_dahlia"
+		},
+		{
+			"item": "seed_lotus"
+		},
+		{
+			"item": "fertilizer",
+			"seasonal": false
+		}
+	]
+}

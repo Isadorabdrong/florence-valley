@@ -1,0 +1,391 @@
+{
+	"version": 1,
+	"levels": [
+		0,
+		100,
+		250,
+		450,
+		700,
+		1000,
+		1400,
+		1900,
+		2500,
+		3200
+	],
+	"xp": {
+		"harvest_per_growth_day": 2,
+		"forage": 4,
+		"craft": 12,
+		"sale": 3,
+		"quest": 40,
+		"place": 2,
+		"discover": 25,
+		"order": 15
+	},
+	"level_rewards": {
+		"2": {
+			"items": [
+				[
+					"fertilizer",
+					10
+				]
+			]
+		},
+		"3": {
+			"items": [
+				[
+					"seed_orchid",
+					3
+				]
+			]
+		},
+		"4": {
+			"items": [
+				[
+					"seed_lotus",
+					3
+				]
+			],
+			"money": 300
+		},
+		"5": {
+			"items": [
+				[
+					"seed_golden_rose",
+					2
+				]
+			]
+		},
+		"6": {
+			"items": [
+				[
+					"seed_moon_flower",
+					2
+				],
+				[
+					"seed_star_flower",
+					2
+				]
+			]
+		},
+		"7": {
+			"items": [
+				[
+					"seed_celestial_lily",
+					2
+				]
+			]
+		},
+		"8": {
+			"items": [
+				[
+					"seed_blue_orchid",
+					2
+				]
+			]
+		},
+		"9": {
+			"money": 2000
+		},
+		"10": {
+			"money": 5000,
+			"items": [
+				[
+					"seed_golden_rose",
+					3
+				]
+			]
+		}
+	},
+	"achievements": [
+		{
+			"id": "first_harvest",
+			"icon": "flower_daisy",
+			"stat": "harvested_total",
+			"at_least": 1,
+			"title": {
+				"pt_BR": "Primeira colheita",
+				"en": "First harvest"
+			},
+			"desc": {
+				"pt_BR": "Colha sua primeira flor.",
+				"en": "Harvest your first flower."
+			},
+			"reward": {
+				"money": 50
+			}
+		},
+		{
+			"id": "green_thumb",
+			"icon": "flower_sunflower",
+			"stat": "harvested_total",
+			"at_least": 100,
+			"title": {
+				"pt_BR": "Dedo verde",
+				"en": "Green thumb"
+			},
+			"desc": {
+				"pt_BR": "Colha 100 flores.",
+				"en": "Harvest 100 flowers."
+			},
+			"reward": {
+				"money": 500
+			}
+		},
+		{
+			"id": "rose_garden",
+			"icon": "flower_rose",
+			"stat": "harvested:rose",
+			"at_least": 10,
+			"title": {
+				"pt_BR": "Jardim de rosas",
+				"en": "Rose garden"
+			},
+			"desc": {
+				"pt_BR": "Colha 10 rosas, como a vovó.",
+				"en": "Harvest 10 roses, like Grandma."
+			},
+			"reward": {
+				"money": 200
+			}
+		},
+		{
+			"id": "variety",
+			"icon": "flower_tulip",
+			"stat": "species_harvested",
+			"at_least": 6,
+			"title": {
+				"pt_BR": "Variedade",
+				"en": "Variety"
+			},
+			"desc": {
+				"pt_BR": "Colha 6 espécies diferentes.",
+				"en": "Harvest 6 different species."
+			},
+			"reward": {
+				"money": 300
+			}
+		},
+		{
+			"id": "rare_bloom",
+			"icon": "flower_golden_rose",
+			"stat": "rare_harvested",
+			"at_least": 1,
+			"title": {
+				"pt_BR": "Flor rara",
+				"en": "Rare bloom"
+			},
+			"desc": {
+				"pt_BR": "Colha uma flor rara.",
+				"en": "Harvest a rare flower."
+			},
+			"reward": {
+				"money": 800
+			}
+		},
+		{
+			"id": "first_bouquet",
+			"icon": "bouquet_simple",
+			"stat": "crafted_total",
+			"at_least": 1,
+			"title": {
+				"pt_BR": "Primeiro buquê",
+				"en": "First bouquet"
+			},
+			"desc": {
+				"pt_BR": "Monte seu primeiro buquê.",
+				"en": "Make your first bouquet."
+			},
+			"reward": {
+				"money": 100
+			}
+		},
+		{
+			"id": "all_recipes",
+			"icon": "bouquet_crown",
+			"stat": "recipes_known",
+			"at_least": 15,
+			"title": {
+				"pt_BR": "Mestre florista",
+				"en": "Master florist"
+			},
+			"desc": {
+				"pt_BR": "Descubra todas as receitas de buquê.",
+				"en": "Discover every bouquet recipe."
+			},
+			"reward": {
+				"money": 2000
+			}
+		},
+		{
+			"id": "five_stars",
+			"icon": "bouquet_elegant",
+			"stat": "florist_stars",
+			"at_least": 5,
+			"title": {
+				"pt_BR": "Cinco estrelas",
+				"en": "Five stars"
+			},
+			"desc": {
+				"pt_BR": "Alcance 5 estrelas de reputação na floricultura.",
+				"en": "Reach 5 reputation stars at the flower shop."
+			},
+			"reward": {
+				"money": 1500
+			}
+		},
+		{
+			"id": "prosperity",
+			"icon": "fertilizer",
+			"stat": "money_earned",
+			"at_least": 10000,
+			"title": {
+				"pt_BR": "Prosperidade",
+				"en": "Prosperity"
+			},
+			"desc": {
+				"pt_BR": "Ganhe 10.000 ✿ ao todo.",
+				"en": "Earn 10,000 ✿ in total."
+			},
+			"reward": {
+				"money": 500
+			}
+		},
+		{
+			"id": "neighbours",
+			"icon": "forage_cherry_branch",
+			"stat": "met_count",
+			"at_least": 6,
+			"title": {
+				"pt_BR": "Bons vizinhos",
+				"en": "Good neighbours"
+			},
+			"desc": {
+				"pt_BR": "Conheça todos os moradores do vale.",
+				"en": "Meet every villager in the valley."
+			},
+			"reward": {
+				"money": 200
+			}
+		},
+		{
+			"id": "best_friend",
+			"icon": "bouquet_romantic",
+			"stat": "max_hearts",
+			"at_least": 10,
+			"title": {
+				"pt_BR": "Melhor amizade",
+				"en": "Best friends"
+			},
+			"desc": {
+				"pt_BR": "Chegue a 10 corações com um morador.",
+				"en": "Reach 10 hearts with a villager."
+			},
+			"reward": {
+				"money": 1000
+			}
+		},
+		{
+			"id": "explorer",
+			"icon": "forage_shell",
+			"stat": "maps_visited",
+			"at_least": 7,
+			"title": {
+				"pt_BR": "Exploradora do vale",
+				"en": "Valley explorer"
+			},
+			"desc": {
+				"pt_BR": "Visite todos os lugares ao ar livre do vale.",
+				"en": "Visit every outdoor place in the valley."
+			},
+			"reward": {
+				"money": 300
+			}
+		},
+		{
+			"id": "discoverer",
+			"icon": "forage_amethyst",
+			"stat": "landmarks",
+			"at_least": 5,
+			"title": {
+				"pt_BR": "Descobridora",
+				"en": "Discoverer"
+			},
+			"desc": {
+				"pt_BR": "Encontre os 5 marcos do vale.",
+				"en": "Find the valley's 5 landmarks."
+			},
+			"reward": {
+				"money": 600
+			}
+		},
+		{
+			"id": "decorator",
+			"icon": "forage_pinecone",
+			"stat": "placed_total",
+			"at_least": 10,
+			"title": {
+				"pt_BR": "Decoradora",
+				"en": "Decorator"
+			},
+			"desc": {
+				"pt_BR": "Coloque 10 construções ou decorações na propriedade.",
+				"en": "Place 10 builds or decorations on your property."
+			},
+			"reward": {
+				"money": 300
+			}
+		},
+		{
+			"id": "greenhouse",
+			"icon": "forage_glow_moss",
+			"stat": "greenhouse_restored",
+			"at_least": 1,
+			"title": {
+				"pt_BR": "A estufa vive",
+				"en": "The greenhouse lives"
+			},
+			"desc": {
+				"pt_BR": "Recupere a antiga estufa da vovó.",
+				"en": "Restore Grandma's old greenhouse."
+			},
+			"reward": {
+				"money": 500
+			}
+		},
+		{
+			"id": "storyteller",
+			"icon": "forage_violet",
+			"stat": "diary_pages",
+			"at_least": 10,
+			"title": {
+				"pt_BR": "Guardiã das memórias",
+				"en": "Keeper of memories"
+			},
+			"desc": {
+				"pt_BR": "Encontre todas as páginas do diário da vovó.",
+				"en": "Find every page of Grandma's diary."
+			},
+			"reward": {
+				"money": 1000
+			}
+		},
+		{
+			"id": "master_gardener",
+			"icon": "flower_star_flower",
+			"stat": "level",
+			"at_least": 10,
+			"title": {
+				"pt_BR": "Mestre jardineira",
+				"en": "Master gardener"
+			},
+			"desc": {
+				"pt_BR": "Chegue ao nível 10 de jardinagem.",
+				"en": "Reach gardening level 10."
+			},
+			"reward": {
+				"money": 3000
+			}
+		}
+	]
+}

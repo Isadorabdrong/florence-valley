@@ -1,0 +1,178 @@
+{
+	"id": "workshop",
+	"name_key": "SHOP_WORKSHOP",
+	"greeting_key": "SHOP_WORKSHOP_GREETING",
+	"sell_multiplier": 0.8,
+	"stock": [
+		{
+			"item": "build_fence",
+			"seasonal": false,
+			"materials": [
+				[
+					"fiber",
+					2
+				]
+			]
+		},
+		{
+			"item": "build_path",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					2
+				]
+			]
+		},
+		{
+			"item": "build_raised_bed",
+			"seasonal": false,
+			"materials": [
+				[
+					"fiber",
+					4
+				],
+				[
+					"stone",
+					2
+				]
+			]
+		},
+		{
+			"item": "build_bench",
+			"seasonal": false,
+			"materials": [
+				[
+					"fiber",
+					3
+				]
+			]
+		},
+		{
+			"item": "build_lamp",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					3
+				]
+			],
+			"min_level": 2
+		},
+		{
+			"item": "build_vase",
+			"seasonal": false,
+			"materials": [
+				[
+					"forage_clay",
+					2
+				]
+			]
+		},
+		{
+			"item": "build_cherry_tree",
+			"seasonal": false,
+			"materials": [
+				[
+					"forage_cherry_branch",
+					2
+				]
+			],
+			"min_level": 2
+		},
+		{
+			"item": "build_oak_tree",
+			"seasonal": false,
+			"materials": [
+				[
+					"forage_pinecone",
+					2
+				]
+			],
+			"min_level": 2
+		},
+		{
+			"item": "build_pond",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					8
+				],
+				[
+					"forage_clay",
+					4
+				]
+			],
+			"min_level": 3
+		},
+		{
+			"item": "build_fountain",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					20
+				],
+				[
+					"forage_shell",
+					5
+				]
+			],
+			"min_level": 4
+		},
+		{
+			"item": "build_table",
+			"seasonal": false,
+			"materials": [
+				[
+					"fiber",
+					4
+				]
+			]
+		},
+		{
+			"item": "build_bookshelf",
+			"seasonal": false,
+			"materials": [
+				[
+					"fiber",
+					6
+				]
+			],
+			"min_level": 2
+		},
+		{
+			"item": "watering_can_copper",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					15
+				],
+				[
+					"forage_amethyst",
+					1
+				]
+			],
+			"min_level": 3,
+			"replaces": "watering_can"
+		},
+		{
+			"item": "hoe_steel",
+			"seasonal": false,
+			"materials": [
+				[
+					"stone",
+					20
+				],
+				[
+					"forage_amethyst",
+					2
+				]
+			],
+			"min_level": 4,
+			"replaces": "hoe"
+		}
+	]
+}

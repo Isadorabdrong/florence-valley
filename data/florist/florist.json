@@ -1,0 +1,52 @@
+{
+	"version": 1,
+	"restoration": { "money": 800, "items": [ [ "stone", 10 ], [ "fiber", 10 ] ] },
+	"hours": { "open": 540, "close": 1020 },
+	"base_slots": 4,
+	"slot_capacity": 10,
+	"customer_rate": 0.13,
+	"star_thresholds": [ 0, 40, 120, 260, 450, 700 ],
+	"max_reputation": 1000,
+	"weather_factor": { "0": 1.0, "1": 0.7, "2": 0.4, "3": 0.85, "4": 0.6, "5": 0.9 },
+	"weekend_factor": 1.2,
+	"archetypes": [
+		{ "id": "casual", "weight": 4, "tolerance": 1.15, "min_stars": 0, "likes": [] },
+		{ "id": "romantic", "weight": 2, "tolerance": 1.35, "min_stars": 0, "likes": [ "romantic" ] },
+		{ "id": "decorator", "weight": 2, "tolerance": 1.25, "min_stars": 1, "likes": [ "seasonal", "wild", "decor", "fragrant" ] },
+		{ "id": "collector", "weight": 1, "tolerance": 1.5, "min_stars": 2, "likes": [ "rare", "sophisticated", "elegant" ] }
+	],
+	"upgrades": [
+		{ "id": "display_2", "cost": 600, "items": [], "min_stars": 0, "slots": 2 },
+		{ "id": "sign", "cost": 500, "items": [], "min_stars": 0, "rate": 0.15 },
+		{ "id": "diffuser", "cost": 400, "items": [ [ "forage_wild_lavender", 5 ] ], "min_stars": 1, "rate": 0.1, "tolerance": 0.05 },
+		{ "id": "display_3", "cost": 1500, "items": [], "min_stars": 2, "slots": 2 },
+		{ "id": "pro_table", "cost": 1200, "items": [ [ "forage_amethyst", 2 ] ], "min_stars": 2, "bouquet_tolerance": 0.1 }
+	],
+	"decorations": [
+		{ "id": "deco_vase", "cost": 250, "items": [ [ "forage_clay", 3 ] ], "min_stars": 1, "rate": 0.05 },
+		{ "id": "deco_garland", "cost": 400, "items": [ [ "forage_cherry_branch", 5 ] ], "min_stars": 2, "rate": 0.07 },
+		{ "id": "deco_chandelier", "cost": 900, "items": [ [ "forage_amethyst", 3 ] ], "min_stars": 3, "rate": 0.1 },
+		{ "id": "deco_fountain", "cost": 1400, "items": [ [ "forage_shell", 5 ] ], "min_stars": 4, "rate": 0.12 }
+	],
+	"orders": {
+		"max_active": 3,
+		"customers": [ "Dona Celeste", "Seu Bento", "Lívia", "Tomás", "Aurora", "Benício", "Marieta", "Joaquim", "Helena", "Otávio", "Cecília", "Rafael" ],
+		"notes": [ "ORDER_NOTE_BIRTHDAY", "ORDER_NOTE_ANNIVERSARY", "ORDER_NOTE_THANKS", "ORDER_NOTE_GET_WELL", "ORDER_NOTE_PARTY", "ORDER_NOTE_SURPRISE" ],
+		"pool": [
+			{ "item": "flower_daisy", "count": [ 3, 5 ], "min_stars": 0, "weight": 3 },
+			{ "item": "flower_tulip", "count": [ 2, 4 ], "min_stars": 0, "weight": 2, "seasons": [ 0 ] },
+			{ "item": "bouquet_simple", "count": [ 1, 2 ], "min_stars": 0, "weight": 3 },
+			{ "item": "bouquet_daisy", "count": [ 1, 1 ], "min_stars": 0, "weight": 2 },
+			{ "item": "bouquet_wild", "count": [ 1, 1 ], "min_stars": 1, "weight": 2 },
+			{ "item": "bouquet_spring", "count": [ 1, 1 ], "min_stars": 1, "weight": 2, "seasons": [ 0 ] },
+			{ "item": "bouquet_summer", "count": [ 1, 1 ], "min_stars": 1, "weight": 2, "seasons": [ 1 ] },
+			{ "item": "bouquet_romantic", "count": [ 1, 1 ], "min_stars": 2, "weight": 2 },
+			{ "item": "bouquet_elegant", "count": [ 1, 1 ], "min_stars": 3, "weight": 1 },
+			{ "item": "bouquet_rare", "count": [ 1, 1 ], "min_stars": 4, "weight": 1, "seasons": [ 1 ] }
+		],
+		"reward_multiplier": 1.5,
+		"reputation": [ 8, 20 ],
+		"days": [ 3, 6 ],
+		"expire_penalty": 3
+	}
+}

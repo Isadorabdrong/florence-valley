@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"cherry_blossom"
+name_key = "FLOWER_CHERRY_BLOSSOM"
+description_key = "FLOWER_CHERRY_BLOSSOM_DESC"
+seasons = Array[int]([0])
+stage_days = PackedInt32Array(1, 1, 2, 1, 1)
+water_need = 0
+sell_price = 90
+seed_price = 32
+rarity = 1
+regrows = true
+regrow_stage = 3
+special = 0
+seed_drop_chance = 0.2
+atlas_row = 8
+min_level = 2
+tags = PackedStringArray("spring", "romantic")

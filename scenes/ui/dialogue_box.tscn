@@ -1,0 +1,85 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/ui/dialogue_box.gd" id="1"]
+
+[node name="DialogueBox" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("1")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 60.0
+offset_top = -104.0
+offset_right = -60.0
+offset_bottom = -8.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="HBox" type="HBoxContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="Portrait" type="TextureRect" parent="Panel/HBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(72, 72)
+layout_mode = 2
+size_flags_vertical = 4
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBox" type="VBoxContainer" parent="Panel/HBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 2
+
+[node name="NameRow" type="HBoxContainer" parent="Panel/HBox/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="SpeakerName" type="Label" parent="Panel/HBox/VBox/NameRow"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_colors/font_color = Color(0.6118, 0.3098, 0.4471, 1.0)
+theme_override_font_sizes/font_size = 12
+
+[node name="SpeakerHearts" type="Label" parent="Panel/HBox/VBox/NameRow"]
+unique_name_in_owner = true
+layout_mode = 2
+auto_translate_mode = 2
+theme_override_colors/font_color = Color(0.8784, 0.4784, 0.6039, 1.0)
+theme_override_font_sizes/font_size = 8
+
+[node name="DialogueText" type="Label" parent="Panel/HBox/VBox"]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+size_flags_vertical = 3
+auto_translate_mode = 2
+theme_override_font_sizes/font_size = 10
+autowrap_mode = 3
+
+[node name="ChoiceRow" type="HBoxContainer" parent="Panel/HBox/VBox"]
+unique_name_in_owner = true
+visible = false
+layout_mode = 2
+alignment = 2
+theme_override_constants/separation = 6
+
+[node name="MoreHint" type="Label" parent="Panel/HBox/VBox"]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8784, 0.4784, 0.6039, 1.0)
+theme_override_font_sizes/font_size = 8
+text = "▼"
+horizontal_alignment = 2

@@ -1,0 +1,763 @@
+{
+	"version": 1,
+	"friendship": {
+		"max": 1000,
+		"per_heart": 100,
+		"talk": 20,
+		"gift": {
+			"loved": 80,
+			"liked": 45,
+			"neutral": 20,
+			"disliked": -20
+		},
+		"birthday_multiplier": 3,
+		"event_hearts": 4
+	},
+	"npcs": {
+		"celeste": {
+			"name": "Celeste",
+			"age": 62,
+			"sheet": "a",
+			"skin": [
+				"f0c8a8",
+				"dca88a"
+			],
+			"hair": [
+				"dcd8e3",
+				"b8b3c4"
+			],
+			"outfit": [
+				"9d8bc9",
+				"7865a6"
+			],
+			"portrait": {
+				"hair": "bun",
+				"accessory": "shawl",
+				"glasses": true
+			},
+			"birthday": [
+				0,
+				14
+			],
+			"bio": {
+				"pt_BR": "Dona do Mercado do Vale e melhor amiga da sua avó. Doce, conversadeira e apaixonada por chá de lavanda.",
+				"en": "Owner of the Valley Market and your grandmother's best friend. Sweet, chatty and in love with lavender tea."
+			},
+			"gifts": {
+				"loved": [
+					"flower_lavender",
+					"forage_wild_lavender",
+					"bouquet_romantic",
+					"bouquet_elegant"
+				],
+				"liked": [
+					"tag:flower",
+					"tag:bouquet"
+				],
+				"disliked": [
+					"stone",
+					"forage_clay",
+					"fiber"
+				]
+			},
+			"requests": [
+				[
+					"flower_lavender",
+					3
+				],
+				[
+					"flower_tulip",
+					3
+				],
+				[
+					"flower_daisy",
+					5
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"weekdays": [
+							6
+						]
+					},
+					"entries": [
+						[
+							600,
+							"butterfly_garden",
+							21,
+							15,
+							"right"
+						],
+						[
+							960,
+							"village",
+							30,
+							24,
+							"down"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							480,
+							"village",
+							24,
+							24,
+							"up"
+						],
+						[
+							540,
+							"market",
+							8,
+							3,
+							"down"
+						],
+						[
+							1020,
+							"village",
+							30,
+							24,
+							"left"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				}
+			]
+		},
+		"livia": {
+			"name": "Lívia",
+			"age": 27,
+			"sheet": "a",
+			"skin": [
+				"c68863",
+				"a86f4f"
+			],
+			"hair": [
+				"a8432f",
+				"822f20"
+			],
+			"outfit": [
+				"e07a9a",
+				"c4466a"
+			],
+			"portrait": {
+				"hair": "long",
+				"accessory": "apron"
+			},
+			"birthday": [
+				1,
+				8
+			],
+			"bio": {
+				"pt_BR": "Dona da Cafeteria Pétala Doce. Alegre, acorda antes do sol para assar bolos e sonha com um bolo de rosas perfeito.",
+				"en": "Owner of the Sweet Petal Café. Cheerful, up before the sun baking cakes, dreaming of the perfect rose cake."
+			},
+			"gifts": {
+				"loved": [
+					"flower_rose",
+					"bouquet_romantic",
+					"bouquet_spring",
+					"forage_cherry_branch"
+				],
+				"liked": [
+					"tag:flower",
+					"forage_mushroom"
+				],
+				"disliked": [
+					"stone",
+					"forage_pinecone"
+				]
+			},
+			"requests": [
+				[
+					"flower_rose",
+					2
+				],
+				[
+					"flower_daisy",
+					4
+				],
+				[
+					"forage_mushroom",
+					2
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"weekdays": [
+							0
+						]
+					},
+					"entries": [
+						[
+							600,
+							"village",
+							32,
+							24,
+							"left"
+						],
+						[
+							900,
+							"butterfly_garden",
+							26,
+							16,
+							"down"
+						],
+						[
+							1140,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							420,
+							"cafe",
+							7,
+							2,
+							"down"
+						],
+						[
+							1080,
+							"village",
+							27,
+							22,
+							"up"
+						],
+						[
+							1260,
+							null
+						]
+					]
+				}
+			]
+		},
+		"tomas": {
+			"name": "Tomás",
+			"age": 31,
+			"sheet": "b",
+			"skin": [
+				"a86f4f",
+				"8a5638"
+			],
+			"hair": [
+				"2b1f2b",
+				"1a1220"
+			],
+			"outfit": [
+				"566590",
+				"3f4a6b"
+			],
+			"portrait": {
+				"hair": "short",
+				"accessory": "scarf",
+				"glasses": true
+			},
+			"birthday": [
+				2,
+				21
+			],
+			"bio": {
+				"pt_BR": "O bibliotecário do vale. Tímido, curioso e apaixonado pela história de Florence Valley — e pelas flores raras do bosque.",
+				"en": "The valley librarian. Shy, curious and passionate about Florence Valley's history — and the grove's rare flowers."
+			},
+			"gifts": {
+				"loved": [
+					"forage_glow_moss",
+					"forage_lotus",
+					"bouquet_rare",
+					"forage_mushroom"
+				],
+				"liked": [
+					"flower_lily",
+					"forage_violet",
+					"tag:rare"
+				],
+				"disliked": [
+					"forage_shell",
+					"fiber"
+				]
+			},
+			"requests": [
+				[
+					"forage_mushroom",
+					2
+				],
+				[
+					"flower_lily",
+					2
+				],
+				[
+					"forage_violet",
+					3
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"weekdays": [
+							5,
+							6
+						]
+					},
+					"entries": [
+						[
+							600,
+							"cherry_forest",
+							13,
+							21,
+							"left"
+						],
+						[
+							900,
+							"library",
+							12,
+							4,
+							"up"
+						],
+						[
+							1020,
+							"cafe",
+							3,
+							7,
+							"up"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							540,
+							"library",
+							8,
+							7,
+							"up"
+						],
+						[
+							1020,
+							"cafe",
+							3,
+							7,
+							"up"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				}
+			]
+		},
+		"benicio": {
+			"name": "Benício",
+			"age": 70,
+			"sheet": "b",
+			"skin": [
+				"8d5a3f",
+				"70442e"
+			],
+			"hair": [
+				"fbf7f2",
+				"dcd8e3"
+			],
+			"outfit": [
+				"6c9fc4",
+				"52709f"
+			],
+			"portrait": {
+				"hair": "short",
+				"accessory": "cap",
+				"beard": true
+			},
+			"birthday": [
+				3,
+				5
+			],
+			"bio": {
+				"pt_BR": "Pescador aposentado que passa os dias no lago. Conhece todas as histórias do vale — muitas sobre a sua avó.",
+				"en": "A retired fisherman who spends his days at the lake. He knows every story in the valley — many about your grandmother."
+			},
+			"gifts": {
+				"loved": [
+					"forage_shell",
+					"flower_sunflower",
+					"bouquet_summer"
+				],
+				"liked": [
+					"tag:flower",
+					"forage_clay",
+					"forage_pinecone"
+				],
+				"disliked": [
+					"forage_glow_moss",
+					"bouquet_romantic"
+				]
+			},
+			"requests": [
+				[
+					"forage_shell",
+					3
+				],
+				[
+					"flower_sunflower",
+					2
+				],
+				[
+					"forage_clay",
+					3
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"rain": true
+					},
+					"entries": [
+						[
+							480,
+							"cafe",
+							10,
+							7,
+							"up"
+						],
+						[
+							1140,
+							null
+						]
+					]
+				},
+				{
+					"when": {
+						"seasons": [
+							3
+						]
+					},
+					"entries": [
+						[
+							540,
+							"cafe",
+							10,
+							7,
+							"up"
+						],
+						[
+							1080,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							360,
+							"clear_lake",
+							24,
+							26,
+							"up"
+						],
+						[
+							720,
+							"cafe",
+							10,
+							7,
+							"up"
+						],
+						[
+							900,
+							"clear_lake",
+							30,
+							27,
+							"up"
+						],
+						[
+							1140,
+							null
+						]
+					]
+				}
+			]
+		},
+		"aurora": {
+			"name": "Aurora",
+			"age": 24,
+			"sheet": "a",
+			"skin": [
+				"f6cfb0",
+				"e3a888"
+			],
+			"hair": [
+				"f2c14e",
+				"d99a1e"
+			],
+			"outfit": [
+				"c9b3e6",
+				"a98bd6"
+			],
+			"portrait": {
+				"hair": "long",
+				"accessory": "beret"
+			},
+			"birthday": [
+				0,
+				26
+			],
+			"bio": {
+				"pt_BR": "Pintora que chegou ao vale há pouco tempo. Passa os dias desenhando borboletas e flores silvestres.",
+				"en": "A painter who arrived in the valley not long ago. She spends her days drawing butterflies and wildflowers."
+			},
+			"gifts": {
+				"loved": [
+					"forage_amethyst",
+					"bouquet_wild",
+					"forage_poppy",
+					"forage_violet"
+				],
+				"liked": [
+					"tag:wild",
+					"tag:flower"
+				],
+				"disliked": [
+					"stone",
+					"forage_mushroom"
+				]
+			},
+			"requests": [
+				[
+					"forage_poppy",
+					2
+				],
+				[
+					"forage_violet",
+					3
+				],
+				[
+					"forage_wild_lavender",
+					3
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"rain": true
+					},
+					"entries": [
+						[
+							540,
+							"library",
+							12,
+							4,
+							"up"
+						],
+						[
+							1080,
+							"cafe",
+							10,
+							2,
+							"down"
+						],
+						[
+							1260,
+							null
+						]
+					]
+				},
+				{
+					"when": {
+						"weekdays": [
+							5
+						]
+					},
+					"entries": [
+						[
+							540,
+							"lavender_mountains",
+							21,
+							7,
+							"up"
+						],
+						[
+							960,
+							"village",
+							32,
+							24,
+							"down"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							540,
+							"butterfly_garden",
+							26,
+							16,
+							"up"
+						],
+						[
+							960,
+							"village",
+							32,
+							24,
+							"down"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				}
+			]
+		},
+		"bento": {
+			"name": "Bento",
+			"age": 45,
+			"sheet": "b",
+			"skin": [
+				"dca88a",
+				"c68863"
+			],
+			"hair": [
+				"5b3a2e",
+				"422a20"
+			],
+			"outfit": [
+				"8a5d3f",
+				"6b4430"
+			],
+			"portrait": {
+				"hair": "short",
+				"accessory": "bandana",
+				"beard": true
+			},
+			"birthday": [
+				2,
+				3
+			],
+			"bio": {
+				"pt_BR": "O marceneiro do vale. Resmunga muito, mas é o primeiro a ajudar quando alguém precisa. Sonha em ver a praça bonita de novo.",
+				"en": "The valley's carpenter. He grumbles a lot, but he's the first to help when someone needs it. He dreams of seeing the square beautiful again."
+			},
+			"gifts": {
+				"loved": [
+					"stone",
+					"forage_pinecone",
+					"forage_amethyst"
+				],
+				"liked": [
+					"fiber",
+					"forage_clay",
+					"flower_sunflower"
+				],
+				"disliked": [
+					"bouquet_romantic",
+					"flower_rose",
+					"forage_cherry_branch"
+				]
+			},
+			"requests": [
+				[
+					"stone",
+					10
+				],
+				[
+					"fiber",
+					8
+				],
+				[
+					"forage_pinecone",
+					3
+				]
+			],
+			"schedule": [
+				{
+					"when": {
+						"weekdays": [
+							6
+						]
+					},
+					"entries": [
+						[
+							600,
+							"clear_lake",
+							30,
+							27,
+							"up"
+						],
+						[
+							900,
+							"village",
+							20,
+							14,
+							"down"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				},
+				{
+					"when": {},
+					"entries": [
+						[
+							480,
+							"village",
+							40,
+							36,
+							"up"
+						],
+						[
+							720,
+							"cafe",
+							3,
+							7,
+							"up"
+						],
+						[
+							780,
+							"village",
+							40,
+							36,
+							"up"
+						],
+						[
+							1020,
+							"village",
+							20,
+							14,
+							"down"
+						],
+						[
+							1200,
+							null
+						]
+					]
+				}
+			]
+		}
+	}
+}

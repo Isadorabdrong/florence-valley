@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scripts/world/clearable_prop.gd" id="9"]
+[ext_resource type="Texture2D" path="res://assets/environments/weed.png" id="1"]
+[ext_resource type="Material" path="res://resources/materials/wind_sway_soft.tres" id="2"]
+
+[node name="Weed" type="Node2D" groups=["foliage"]]
+script = ExtResource("9")
+object_kind = &"weed"
+hits_required = 1
+drop_item = &"fiber"
+drop_count = 1
+
+[node name="Sprite" type="Sprite2D" parent="."]
+material = ExtResource("2")
+texture = ExtResource("1")
+centered = false
+offset = Vector2(-8, -16)

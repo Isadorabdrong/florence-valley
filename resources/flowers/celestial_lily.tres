@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"celestial_lily"
+name_key = "FLOWER_CELESTIAL_LILY"
+description_key = "FLOWER_CELESTIAL_LILY_DESC"
+seasons = Array[int]([0, 1, 2, 3])
+stage_days = PackedInt32Array(2, 3, 3, 3, 2)
+water_need = 2
+sell_price = 700
+seed_price = 240
+rarity = 2
+regrows = false
+regrow_stage = 3
+special = 3
+seed_drop_chance = 0.06
+atlas_row = 14
+min_level = 7
+tags = PackedStringArray("elegant", "rare")

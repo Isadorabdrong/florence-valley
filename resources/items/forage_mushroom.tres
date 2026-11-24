@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"forage_mushroom"
+name_key = "ITEM_FORAGE_MUSHROOM"
+description_key = "ITEM_FORAGE_MUSHROOM_DESC"
+category = 5
+max_stack = 99
+sell_price = 30
+icon_coords = Vector2i(9, 3)

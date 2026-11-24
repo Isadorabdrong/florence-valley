@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"golden_rose"
+name_key = "FLOWER_GOLDEN_ROSE"
+description_key = "FLOWER_GOLDEN_ROSE_DESC"
+seasons = Array[int]([0, 1, 2])
+stage_days = PackedInt32Array(2, 2, 3, 3, 2)
+water_need = 1
+sell_price = 600
+seed_price = 200
+rarity = 2
+regrows = false
+regrow_stage = 3
+special = 1
+seed_drop_chance = 0.08
+atlas_row = 12
+min_level = 5
+tags = PackedStringArray("romantic", "rare")

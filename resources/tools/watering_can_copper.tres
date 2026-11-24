@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"watering_can_copper"
+name_key = "ITEM_WATERING_CAN_COPPER"
+description_key = "ITEM_WATERING_CAN_COPPER_DESC"
+category = 0
+tool_kind = 2
+max_stack = 1
+icon_coords = Vector2i(12, 5)
+tags = PackedStringArray("upgrade")
+area = 3
+capacity = 40
+buy_price = 1200

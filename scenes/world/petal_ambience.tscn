@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Texture2D" path="res://assets/environments/petal.png" id="1"]
+
+[sub_resource type="Curve" id="Curve_fade"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.1, 1), 0.0, 0.0, 0, 0, Vector2(0.85, 1), 0.0, 0.0, 0, 0, Vector2(1, 0), 0.0, 0.0, 0, 0]
+point_count = 4
+
+[node name="PetalAmbience" type="CanvasLayer"]
+layer = 2
+
+[node name="Petals" type="CPUParticles2D" parent="."]
+position = Vector2(340, -8)
+amount = 22
+lifetime = 18.0
+preprocess = 18.0
+texture = ExtResource("1")
+emission_shape = 3
+emission_rect_extents = Vector2(380, 4)
+direction = Vector2(-0.35, 1)
+spread = 20.0
+gravity = Vector2(-2, 2.2)
+initial_velocity_min = 10.0
+initial_velocity_max = 20.0
+angular_velocity_min = -80.0
+angular_velocity_max = 80.0
+tangential_accel_min = -3.0
+tangential_accel_max = 3.0
+angle_min = -180.0
+angle_max = 180.0
+scale_amount_min = 0.8
+scale_amount_max = 1.4
+color = Color(1.0000, 1.0000, 1.0000, 0.9)

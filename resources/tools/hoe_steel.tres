@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"hoe_steel"
+name_key = "ITEM_HOE_STEEL"
+description_key = "ITEM_HOE_STEEL_DESC"
+category = 0
+tool_kind = 1
+max_stack = 1
+icon_coords = Vector2i(13, 5)
+tags = PackedStringArray("upgrade")
+area = 3
+capacity = 0
+buy_price = 1500

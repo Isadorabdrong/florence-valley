@@ -1,0 +1,513 @@
+keys,pt_BR,en
+MENU_NEW_GAME,Novo Jogo,New Game
+MENU_CREDITS,Créditos,Credits
+MENU_QUIT,Sair,Quit
+MENU_TAGLINE,A vida floresce aqui ♡,Life blooms here ♡
+MENU_VERSION,"Versão %s","Version %s"
+CREDITS_TITLE,Créditos,Credits
+CREDITS_BODY,"Florence Valley — um jogo indie original.
+
+Design, código e pixel art gerados para o projeto.
+Música e efeitos sonoros originais, sintetizados pelo próprio projeto.
+Feito com Godot Engine (licença MIT).
+
+Obrigada por jogar!","Florence Valley — an original indie game.
+
+Design, code and pixel art made for this project.
+Original music and sound effects, synthesised by the project itself.
+Made with Godot Engine (MIT license).
+
+Thank you for playing!"
+CLOSE,Fechar,Close
+BACK,Voltar,Back
+CREATE_TITLE,Uma nova jornada,A new journey
+CREATE_INTRO,"Sua avó deixou para você uma fazenda em Florence Valley.","Your grandmother left you a farm in Florence Valley."
+CREATE_NAME,Seu nome,Your name
+CREATE_FARM,Nome da fazenda,Farm name
+CREATE_OUTFIT,Jardineira,Overalls
+CREATE_START,Começar,Begin
+CREATE_NAME_PLACEHOLDER,Ex.: Flora,e.g. Flora
+CREATE_FARM_PLACEHOLDER,Ex.: Florence,e.g. Florence
+ERR_NAME_SHORT,O nome precisa ter pelo menos 2 letras.,The name needs at least 2 letters.
+ERR_NAME_LONG,O nome pode ter no máximo 16 letras.,The name can have at most 16 letters.
+ERR_NAME_CHARS,"Use apenas letras, números, espaço, hífen ou apóstrofo.","Use only letters, numbers, spaces, hyphens or apostrophes."
+ERR_FARM_PREFIX,Fazenda: ,Farm: 
+OUTFIT_SOFT_BLUE,Azul suave,Soft blue
+OUTFIT_OLD_ROSE,Rosa antigo,Old rose
+OUTFIT_LAVENDER,Lavanda,Lavender
+OUTFIT_SAGE,Sálvia,Sage
+LOCATION_FARM,Fazenda %s,%s Farm
+LOCATION_SUBTITLE,Florence Valley · %s,Florence Valley · %s
+CONTROLS_HINT,"WASD: andar · Shift: correr · Espaço/clique: usar · E: interagir · 1–9: itens · Tab: inventário · M: mapa · L: diário","WASD: walk · Shift: run · Space/click: use · E: interact · 1–9: items · Tab: inventory · M: map · L: journal"
+PAUSE_TITLE,Pausa,Paused
+PAUSE_RESUME,Continuar,Resume
+PAUSE_MAIN_MENU,Menu principal,Main menu
+PAUSE_QUIT,Sair do jogo,Quit game
+YES,Sim,Yes
+NO,Não,No
+SEASON_SPRING,Primavera,Spring
+SEASON_SUMMER,Verão,Summer
+SEASON_AUTUMN,Outono,Autumn
+SEASON_WINTER,Inverno,Winter
+WEEKDAY_MON,Seg.,Mon
+WEEKDAY_TUE,Ter.,Tue
+WEEKDAY_WED,Qua.,Wed
+WEEKDAY_THU,Qui.,Thu
+WEEKDAY_FRI,Sex.,Fri
+WEEKDAY_SAT,Sáb.,Sat
+WEEKDAY_SUN,Dom.,Sun
+DATE_FMT,%s %d · %s,%s %d · %s
+YEAR_FMT,Ano %d,Year %d
+DAY_GOOD_MORNING,Bom dia! Um novo dia no vale.,Good morning! A new day in the valley.
+DAY_GREW,%d plantas cresceram durante a noite,%d plants grew overnight
+DAY_BLOOMED,%d flores desabrocharam!,%d flowers bloomed!
+DAY_WITHERED,%d plantas murcharam,%d plants withered
+SLEEP_QUESTION,Dormir e começar um novo dia?,Go to sleep and start a new day?
+INV_TITLE,Inventário,Inventory
+INV_HINT,"Arraste para mover · Clique direito: dividir · Arraste para a lixeira para descartar · Tab/Esc: fechar","Drag to move · Right-click: split · Drag to the bin to discard · Tab/Esc: close"
+INV_EMPTY_SLOT,Espaço vazio.,Empty slot.
+INV_VALUE,Valor: %d ✿,Value: %d ✿
+CAT_TOOL,Ferramenta,Tool
+CAT_SEED,Semente,Seed
+CAT_FLOWER,Flor,Flower
+CAT_MATERIAL,Material,Material
+CAT_FERTILIZER,Fertilizante,Fertilizer
+CAT_FOOD,Alimento,Food
+CAT_DECORATION,Decoração,Decoration
+CAT_SPECIAL,Recurso especial,Special
+CAT_BOUQUET,Buquê,Bouquet
+ITEM_HOE,Enxada,Hoe
+ITEM_HOE_DESC,Prepara a terra para o plantio.,Tills the soil for planting.
+ITEM_WATERING_CAN,Regador,Watering can
+ITEM_WATERING_CAN_DESC,"Rega a terra arada. Encha no poço ou no lago.","Waters tilled soil. Refill at the well or the pond."
+ITEM_SCYTHE,Foice,Scythe
+ITEM_SCYTHE_DESC,"Corta ervas daninhas, colhe flores e limpa plantas murchas.","Cuts weeds, harvests flowers and clears withered plants."
+ITEM_PICKAXE,Picareta,Pickaxe
+ITEM_PICKAXE_DESC,"Quebra pedras e desfaz canteiros vazios.","Breaks rocks and flattens empty beds."
+ITEM_FERTILIZER,Adubo,Fertilizer
+ITEM_FERTILIZER_DESC,"Faz as plantas crescerem 25% mais rápido e dobra a colheita.","Plants grow 25% faster and harvests are doubled."
+ITEM_STONE,Pedra,Stone
+ITEM_STONE_DESC,Útil para construções.,Useful for building.
+ITEM_FIBER,Fibra,Fiber
+ITEM_FIBER_DESC,Fibras vegetais das ervas daninhas.,Plant fibers from weeds.
+ITEM_SEEDS_OF,Sementes de %s,%s seeds
+ITEM_SEED_DESC,Plante em terra arada e regue todos os dias.,Plant in tilled soil and water every day.
+FLOWER_DAISY,Margarida,Daisy
+FLOWER_DAISY_DESC,"Simples e alegre, cresce rápido e quase sozinha.","Simple and cheerful, grows fast with little care."
+FLOWER_TULIP,Tulipa,Tulip
+FLOWER_TULIP_DESC,"A favorita da primavera, com pétalas em taça.","Spring's favourite, with cup-shaped petals."
+FLOWER_ROSE,Rosa,Rose
+FLOWER_ROSE_DESC,"Uma flor clássica e cheia de amor. Exigente: só floresce em solo adubado.","A classic flower full of love. Demanding: only blooms in fertilised soil."
+FLOWER_SUNFLOWER,Girassol,Sunflower
+FLOWER_SUNFLOWER_DESC,"Alto e radiante, bebe muita água.","Tall and radiant, drinks plenty of water."
+FLOWER_LAVENDER,Lavanda,Lavender
+FLOWER_LAVENDER_DESC,"Perfumada e resistente à seca. Volta a florescer depois da colheita.","Fragrant and drought-tolerant. Blooms again after harvest."
+FLOWER_LILY,Lírio,Lily
+FLOWER_LILY_DESC,"Elegante e delicado. Cresce mais rápido perto da água.","Elegant and delicate. Grows faster near water."
+DESC_SEASONS,Estações: %s,Seasons: %s
+DESC_GROWTH,Crescimento: %d dias,Growth: %d days
+DESC_WATER,Água: %s,Water: %s
+DESC_REGROWS,Reflorescer: a cada %d dias,Regrows every %d days
+WATER_LOW,pouca,low
+WATER_MEDIUM,média,medium
+WATER_HIGH,muita,high
+SPECIAL_NEEDS_FERTILIZER,Especial: precisa de adubo para florescer.,Special: needs fertiliser to bloom.
+SPECIAL_LOVES_WATER,Especial: cresce 50% mais rápido perto da água.,Special: grows 50% faster near water.
+STAGE_SEED,Semente,Seed
+STAGE_SPROUT,Broto,Sprout
+STAGE_YOUNG,Planta jovem,Young plant
+STAGE_DEVELOPED,Planta desenvolvida,Developed plant
+STAGE_BUDDING,Em botão,Budding
+STAGE_BLOOM,Pronta para colher,Ready to harvest
+MSG_NEEDS_TILLED,Prepare a terra com a enxada primeiro.,Till the soil with the hoe first.
+MSG_ALREADY_TILLED,A terra já está arada.,The soil is already tilled.
+MSG_ALREADY_FERTILIZED,Este canteiro já foi adubado.,This bed is already fertilised.
+MSG_ALREADY_WATERED,Já foi regado hoje.,Already watered today.
+MSG_HAS_CROP,Já tem uma planta aqui.,There's already a plant here.
+MSG_CLEAR_FIRST,Limpe o terreno primeiro.,Clear the ground first.
+MSG_BLOCKED,Não dá para fazer isso aqui.,You can't do that here.
+MSG_CANT_TILL,Este chão não pode ser arado.,This ground can't be tilled.
+MSG_CANT_USE_HERE,Não dá para usar isso aqui.,You can't use that here.
+MSG_NOTHING_TO_WATER,Regue a terra arada.,Water tilled soil.
+MSG_NOTHING_TO_CUT,Nada para cortar aqui.,Nothing to cut here.
+MSG_NOTHING_TO_BREAK,Nada para quebrar aqui.,Nothing to break here.
+MSG_CAN_EMPTY,"O regador está vazio. Encha no poço ou no lago.","The watering can is empty. Refill at the well or pond."
+MSG_CAN_FULL,O regador já está cheio.,The watering can is already full.
+MSG_CAN_REFILLED,Regador cheio!,Watering can refilled!
+MSG_OUT_OF_SEASON,Esta flor não cresce nesta estação.,This flower doesn't grow this season.
+MSG_INVENTORY_FULL,Inventário cheio!,Inventory full!
+MSG_HARVESTED,+%d %s,+%d %s
+MSG_GOT_SEED,(+1 semente!),(+1 seed!)
+MSG_GOT_ITEM,+%d %s,+%d %s
+MENU_CONTINUE,Continuar,Continue
+MENU_LOAD,Carregar jogo,Load game
+MENU_SETTINGS,Configurações,Settings
+PAUSE_SAVE,Salvar jogo,Save game
+SAVE_DONE,Jogo salvo no espaço %d.,Game saved to slot %d.
+SAVE_FAILED,Não foi possível salvar.,Could not save the game.
+SAVE_NO_SLOT,"Todos os espaços estão ocupados. Apague um em Carregar jogo.","All slots are taken. Delete one in Load game."
+SAVE_ERR_MISSING,O arquivo de salvamento não foi encontrado.,The save file was not found.
+SAVE_ERR_CORRUPT,O arquivo de salvamento está danificado e não há cópia de segurança válida.,The save file is damaged and there is no valid backup.
+SAVE_ERR_VERSION,Este salvamento é de uma versão mais nova do jogo.,This save is from a newer version of the game.
+SAVE_ERR_INVALID,O salvamento contém dados inválidos.,The save contains invalid data.
+ERR_NO_FREE_SLOT,"Os 3 espaços de salvamento estão ocupados. Apague um em Carregar jogo.","All 3 save slots are taken. Delete one in Load game."
+LOAD_TITLE,Carregar jogo,Load game
+LOAD_BUTTON,Carregar,Load
+DELETE_BUTTON,Apagar,Delete
+DELETE_QUESTION,Apagar o espaço %d? Isso não pode ser desfeito.,Delete slot %d? This can't be undone.
+SLOT_FMT,Espaço %d,Slot %d
+SLOT_EMPTY,vazio,empty
+SLOT_CORRUPT,arquivo danificado,damaged file
+SLOT_DETAILS,Dia %d · %s · Ano %d · %s ✿ · %dh%02d,Day %d · %s · Year %d · %s ✿ · %dh%02d
+SLOT_FROM_BACKUP,(cópia de segurança),(backup copy)
+SLOT_DELETED,Espaço %d apagado.,Slot %d deleted.
+SETTINGS_TITLE,Configurações,Settings
+SETTINGS_MUSIC,Música,Music
+SETTINGS_SFX,Efeitos sonoros,Sound effects
+SETTINGS_AMBIENT,Sons do ambiente,Ambient sounds
+SETTINGS_FULLSCREEN,Tela cheia,Fullscreen
+SETTINGS_LANGUAGE,Idioma,Language
+WEATHER_SUNNY,Ensolarado,Sunny
+WEATHER_RAIN,Chuva,Rain
+WEATHER_STORM,Tempestade,Storm
+WEATHER_FOG,Neblina,Fog
+WEATHER_SNOW,Neve,Snow
+WEATHER_WIND,Ventania,Windy
+MSG_LATE_NIGHT,Já é meia-noite… melhor ir dormir.,It's midnight… better get some sleep.
+MSG_PASSED_OUT,Você desmaiou de cansaço…,You passed out from exhaustion…
+DAY_RAINING,A chuva regou as plantas,The rain watered your plants
+CHEST_TITLE,Baú,Chest
+INV_TRASH,Lixeira,Bin
+INV_TRASH_TIP,"Arraste um item aqui para descartar. Clique para recuperar o último.","Drag an item here to discard it. Click to get the last one back."
+INV_DISCARDED,Descartou %d %s (clique na lixeira para desfazer).,Discarded %d %s (click the bin to undo).
+INV_RESTORED,Recuperou %d %s.,Got back %d %s.
+INV_CANT_DISCARD_TOOL,Ferramentas não podem ser descartadas.,Tools can't be discarded.
+SHOP_FLORA_CART,Carrinho de Flores da Dona Celeste,Celeste's Flower Cart
+SHOP_FLORA_CART_GREETING,"Bom dia, querida! Sementes fresquinhas da estação — e compro suas flores também.","Good morning, dear! Fresh seasonal seeds — and I'll buy your flowers too."
+SHOP_TAB_BUY,Comprar,Buy
+SHOP_TAB_SELL,Vender,Sell
+SHOP_BUY,Comprar,Buy
+SHOP_SELL,Vender 1,Sell 1
+SHOP_SELL_ALL,Vender tudo,Sell all
+SHOP_BOUGHT,Comprou %d %s.,Bought %d %s.
+SHOP_SOLD,Vendeu %d %s por %s ✿.,Sold %d %s for %s ✿.
+SHOP_NOT_ENOUGH_MONEY,Pétalas insuficientes.,Not enough Pétalas.
+SHOP_NOT_SOLD,Este item não está à venda hoje.,This item isn't for sale today.
+SHOP_CANT_SELL,Este item não pode ser vendido.,This item can't be sold.
+SHOP_NOTHING_TODAY,Nada à venda nesta estação.,Nothing for sale this season.
+SHOP_NOTHING_TO_SELL,Você não tem nada para vender.,You have nothing to sell.
+MAP_FARM,Fazenda,Farm
+MAP_VILLAGE,Vilarejo de Florence,Florence Village
+MAP_CHERRY_FOREST,Floresta das Cerejeiras,Cherry Blossom Forest
+MAP_RARE_GROVE,Bosque das Flores Raras,Grove of Rare Flowers
+MAP_CLEAR_LAKE,Lago das Águas Claras,Clearwater Lake
+MAP_LAVENDER_MOUNTAINS,Montanhas de Lavanda,Lavender Mountains
+MAP_BUTTERFLY_GARDEN,Jardim das Borboletas,Butterfly Garden
+MAP_HOUSE,Casa da Vovó,Grandma's House
+MAP_MARKET,Mercado do Vale,Valley Market
+MAP_CAFE,Cafeteria Pétala Doce,Sweet Petal Café
+MAP_LIBRARY,Biblioteca do Vale,Valley Library
+MAP_COMMUNITY_CENTER,Centro Comunitário,Community Center
+MAP_FIRST_VISIT,Um lugar novo para explorar!,A new place to explore!
+MAP_TITLE,Mapa de Florence Valley,Map of Florence Valley
+MAP_SUMMARY,Lugares visitados: %d/%d · Descobertas: %d/%d,Places visited: %d/%d · Discoveries: %d/%d
+MSG_DISCOVERY,Nova descoberta registrada no mapa!,New discovery added to the map!
+LANDMARK_TITLE,Descoberta,Discovery
+MSG_NO_FARMING_HERE,Só dá para cultivar na fazenda.,You can only farm on your farm.
+SHOP_MARKET,Mercado do Vale,Valley Market
+SHOP_MARKET_GREETING,Bem-vinda ao Mercado! Temos sementes da estação e compramos o que você colher ou encontrar por aí.,Welcome to the Market! We have seasonal seeds and buy whatever you grow or find out there.
+ITEM_FORAGE_VIOLET,Violeta silvestre,Wild violet
+ITEM_FORAGE_VIOLET_DESC,"Pequenina e perfumada, cresce à sombra das árvores.","Tiny and fragrant, it grows in the shade of trees."
+ITEM_FORAGE_CHERRY_BRANCH,Ramo de cerejeira,Cherry blossom branch
+ITEM_FORAGE_CHERRY_BRANCH_DESC,Um galho florido caído na floresta. Lindo em arranjos.,A blooming twig fallen in the forest. Lovely in arrangements.
+ITEM_FORAGE_POPPY,Papoula,Poppy
+ITEM_FORAGE_POPPY_DESC,Pétalas vermelhas como seda.,Petals red as silk.
+ITEM_FORAGE_LOTUS,Flor de lótus,Lotus flower
+ITEM_FORAGE_LOTUS_DESC,Flutua no lago só no verão. Rara e muito valiosa.,Floats on the lake only in summer. Rare and very valuable.
+ITEM_FORAGE_SHELL,Concha,Shell
+ITEM_FORAGE_SHELL_DESC,Encontrada na areia do lago.,Found in the lake sand.
+ITEM_FORAGE_CLAY,Argila,Clay
+ITEM_FORAGE_CLAY_DESC,Boa para fazer vasos.,Good for making pots.
+ITEM_FORAGE_AMETHYST,Ametista,Amethyst
+ITEM_FORAGE_AMETHYST_DESC,Um cristal lilás das montanhas.,A lilac crystal from the mountains.
+ITEM_FORAGE_WILD_LAVENDER,Lavanda selvagem,Wild lavender
+ITEM_FORAGE_WILD_LAVENDER_DESC,"Cresce livre nas encostas, com perfume intenso.","Grows freely on the slopes, with an intense scent."
+ITEM_FORAGE_GLOW_MOSS,Musgo luminoso,Glowing moss
+ITEM_FORAGE_GLOW_MOSS_DESC,Brilha baixinho no escuro do bosque.,Glows softly in the dark of the grove.
+ITEM_FORAGE_MUSHROOM,Cogumelo do bosque,Grove mushroom
+ITEM_FORAGE_MUSHROOM_DESC,Rosado e macio. Cresce depois da chuva.,Pink and soft. Grows after the rain.
+ITEM_FORAGE_PINECONE,Pinha,Pinecone
+ITEM_FORAGE_PINECONE_DESC,Uma pinha bem formada. Ótima para decoração.,A well-shaped pinecone. Great for decorating.
+ITEM_FORAGE_SNOWDROP,Galanto,Snowdrop
+ITEM_FORAGE_SNOWDROP_DESC,A primeira flor a desafiar a neve.,The first flower to brave the snow.
+TXT_OLD_FLORIST,A antiga floricultura da vovó. As janelas estão fechadas com tábuas e as paredes precisam de reparo. Um dia ela vai florescer de novo…,Grandma's old flower shop. The windows are boarded up and the walls need repair. One day it will bloom again…
+TXT_WORKSHOP_CLOSED,"Oficina do Seu Bento — ""Volto logo!"" diz o bilhete na porta.","Mr. Bento's Workshop — ""Back soon!"" says the note on the door."
+TXT_HOUSE_A,A porta está trancada. Pela janela dá para ver uma mesa posta com xícaras floridas.,The door is locked. Through the window you see a table set with flowery cups.
+TXT_HOUSE_B,A porta está trancada. Há vasos de ervas em cada degrau da entrada.,The door is locked. There are herb pots on every step of the porch.
+TXT_VILLAGE_BOARD,"QUADRO DO VILAREJO
+• Primavera: Festival da Primavera na praça.
+• Verão: Festival das Flores.
+• Outono: Festival da Colheita.
+• Inverno: Festival de Inverno.
+""Procuramos alguém para cuidar da velha floricultura!""","VILLAGE BOARD
+• Spring: Spring Festival in the square.
+• Summer: Flower Festival.
+• Autumn: Harvest Festival.
+• Winter: Winter Festival.
+""Looking for someone to take care of the old flower shop!"""
+TXT_FOUNTAIN,"A fonte da praça. Uma placa diz: ""Em memória dos que fizeram o vale florescer."" Há moedas brilhando no fundo.","The square's fountain. A plaque reads: ""In memory of those who made the valley bloom."" Coins glitter at the bottom."
+TXT_FESTIVAL_STAGE,"O palco dos festivais, enfeitado com bandeirinhas. Fica bem animado nos dias de festa.","The festival stage, decorated with bunting. It gets lively on festival days."
+TXT_DOCK,O velho píer do lago. A água é tão clara que dá para ver os peixes.,The lake's old pier. The water is so clear you can see the fish.
+TXT_LM_GRANDMA_BENCH,"Um banco de pedra coberto de musgo. Gravado no encosto: ""F. & A. — aqui plantamos a primeira cerejeira."" Parece que a vovó vinha muito aqui.","A moss-covered stone bench. Carved on the back: ""F. & A. — here we planted the first cherry tree."" It seems Grandma came here often."
+TXT_LM_RARE_STONE,Uma pedra antiga com uma flor entalhada que brilha de leve. Ao redor dela crescem plantas que você nunca viu. Dizem que as flores raras do vale nasceram aqui.,An ancient stone with a carved flower that faintly glows. Around it grow plants you've never seen. They say the valley's rare flowers were born here.
+TXT_LM_LAKE,"Um marco de pedra à beira do lago: ""Águas Claras — a fonte de toda a vida do vale."" O reflexo do céu na água é perfeito.","A stone marker by the lake: ""Clearwater — the source of all life in the valley."" The sky's reflection on the water is perfect."
+TXT_LM_VIEWPOINT,"Do alto do mirante você vê o vale inteiro: a fazenda, o vilarejo, o lago brilhando. O vento traz cheiro de lavanda.","From the viewpoint you can see the whole valley: the farm, the village, the shining lake. The wind carries the scent of lavender."
+TXT_LM_SUNDIAL,"Um relógio de sol cercado de flores. Na base: ""O tempo passa devagar para quem cuida de um jardim.""","A sundial surrounded by flowers. On its base: ""Time passes slowly for those who tend a garden."""
+TXT_GRANDMA_SHELF,"Na estante, entre livros de jardinagem, há um caderno de capa florida: o diário da vovó. Na primeira página: ""Para quem vier depois de mim — cuide das flores, e elas cuidarão de você.""","On the shelf, among gardening books, is a notebook with a flowery cover: Grandma's diary. On the first page: ""For whoever comes after me — care for the flowers, and they'll care for you."""
+TXT_MARKET_SHELF,"Prateleiras cheias de pacotes de sementes, regadores novos e vasinhos de barro.","Shelves full of seed packets, new watering cans and little clay pots."
+TXT_CAFE_COUNTER,"No quadro: ""Chá de lavanda · Bolo de rosas · Pão de mel"". Ninguém no balcão agora — o cheiro de bolo ainda paira no ar.","On the board: ""Lavender tea · Rose cake · Honey bread"". No one at the counter now — the smell of cake still lingers."
+TXT_BOOK_VALLEY,"""História de Florence Valley"": o vale recebeu esse nome por causa de Florence, a primeira jardineira que plantou flores onde só havia pedras.","""History of Florence Valley"": the valley is named after Florence, the first gardener who planted flowers where there were only stones."
+TXT_BOOK_FLOWERS,"""Guia das Flores do Vale"": rosas pedem adubo, lírios amam a água, lavandas aguentam o sol e as margaridas crescem em qualquer canto.","""Guide to the Valley's Flowers"": roses want fertiliser, lilies love water, lavender endures the sun and daisies grow in any corner."
+TXT_BOOK_SEASONS,"""As Quatro Estações"": na primavera tudo floresce, o verão é dos girassóis, o outono traz neblina e o inverno pede uma estufa.","""The Four Seasons"": in spring everything blooms, summer belongs to sunflowers, autumn brings fog and winter calls for a greenhouse."
+TXT_BOOK_GRANDMA,"Um livro de registros da biblioteca. Uma assinatura aparece várias vezes, com letra caprichada: a da sua avó. Ela emprestou todos os livros sobre flores raras.",A library logbook. One signature appears again and again in careful handwriting: your grandmother's. She borrowed every book about rare flowers.
+TXT_CC_BOARD,"AVISOS DA COMUNIDADE
+""Mutirão para restaurar a praça — todos são bem-vindos!""
+""Achados e perdidos: um chapéu de palha com fita rosa.""","COMMUNITY NOTICES
+""Working bee to restore the square — everyone welcome!""
+""Lost and found: a straw hat with a pink ribbon."""
+TXT_CC_PHOTOS,"Fotos antigas dos festivais. Em uma delas, uma senhora sorridente segura um buquê enorme. Embaixo: ""Campeã do Festival das Flores"".","Old festival photos. In one, a smiling lady holds a huge bouquet. Underneath: ""Flower Festival Champion""."
+TXT_CC_TROPHIES,Uma estante de troféus em forma de flor. O mais brilhante tem um nome gravado que você reconhece: o da sua avó.,A shelf of flower-shaped trophies. The shiniest one has a name engraved that you recognise: your grandmother's.
+MAP_FLORIST_SHOP,Floricultura da Vovó,Grandma's Flower Shop
+ITEM_BOUQUET_SIMPLE,Buquê Simples,Simple Bouquet
+ITEM_BOUQUET_SIMPLE_DESC,"Três flores quaisquer, com carinho.","Any three flowers, made with care."
+ITEM_BOUQUET_DAISY,Buquê de Margaridas,Daisy Bouquet
+ITEM_BOUQUET_DAISY_DESC,Alegre e despretensioso.,Cheerful and unpretentious.
+ITEM_BOUQUET_SPRING,Cesta da Primavera,Spring Basket
+ITEM_BOUQUET_SPRING_DESC,"Tulipa, margarida e um toque silvestre.","Tulip, daisy and a wild touch."
+ITEM_BOUQUET_SUMMER,Buquê de Verão,Summer Bouquet
+ITEM_BOUQUET_SUMMER_DESC,"Girassol, lavanda e cor de sol.","Sunflower, lavender and sunny colour."
+ITEM_BOUQUET_WINTER,Buquê de Inverno,Winter Bouquet
+ITEM_BOUQUET_WINTER_DESC,Galantos brancos com um enfeite de pinha.,White snowdrops with a pinecone accent.
+ITEM_BOUQUET_WILD,Arranjo Silvestre,Wildflower Arrangement
+ITEM_BOUQUET_WILD_DESC,Só flores colhidas no vale.,Only flowers gathered in the valley.
+ITEM_BOUQUET_ROMANTIC,Buquê Romântico,Romantic Bouquet
+ITEM_BOUQUET_ROMANTIC_DESC,Rosas e mais um toque de romance.,Roses and one more romantic touch.
+ITEM_BOUQUET_ELEGANT,Arranjo Sofisticado,Sophisticated Arrangement
+ITEM_BOUQUET_ELEGANT_DESC,"Lírio, lavanda e rosa em harmonia.","Lily, lavender and rose in harmony."
+ITEM_BOUQUET_RARE,Arranjo Raro do Lago,Rare Lake Arrangement
+ITEM_BOUQUET_RARE_DESC,"Lótus, lírio e musgo luminoso. Uma raridade.","Lotus, lily and glowing moss. A rarity."
+BOUQUET_TYPE_SIMPLE,Buquê simples,Simple bouquet
+BOUQUET_TYPE_ROMANTIC,Buquê romântico,Romantic bouquet
+BOUQUET_TYPE_SOPHISTICATED,Arranjo sofisticado,Sophisticated arrangement
+BOUQUET_TYPE_SEASONAL,Arranjo sazonal,Seasonal arrangement
+BOUQUET_TYPE_RARE,Arranjo raro,Rare arrangement
+BOUQUET_IN_SEASON,Clientes pagam mais no(a) %s.,Customers pay more in %s.
+TAG_FLOWER,qualquer flor,any flower
+TAG_WILD,flor silvestre,wildflower
+TAG_ROMANTIC,flor romântica,romantic flower
+TAG_DECOR,enfeite natural,natural ornament
+TAG_RARE,item raro,rare item
+FLORIST_TITLE,Floricultura,Flower Shop
+FLORIST_OPEN,Aberta,Open
+FLORIST_CLOSED,Fechada,Closed
+FLORIST_OPEN_SHOP,Abrir a loja,Open the shop
+FLORIST_CLOSE_SHOP,Fechar a loja,Close the shop
+FLORIST_NOW_OPEN,A loja está aberta! Clientes vêm das 09:00 às 17:00.,The shop is open! Customers come from 09:00 to 17:00.
+FLORIST_NOW_CLOSED,A loja está fechada.,The shop is closed.
+FLORIST_REP_NEXT,reputação %d/%d,reputation %d/%d
+FLORIST_TAB_DISPLAYS,Vitrines,Displays
+FLORIST_TAB_ORDERS,Encomendas,Orders
+FLORIST_TAB_UPGRADES,Melhorias,Upgrades
+FLORIST_TAB_REPORT,Relatório,Report
+FLORIST_DISPLAYS_HINT,Coloque flores e buquês à venda e ajuste os preços (100% = valor de mercado).,Put flowers and bouquets on sale and set prices (100% = market value).
+FLORIST_EMPTY_SLOT,Espaço vazio,Empty slot
+FLORIST_STOCK,Colocar à venda,Put on sale
+FLORIST_RESTOCK,Repor,Restock
+FLORIST_REMOVE,Retirar,Remove
+FLORIST_NOTHING_TO_STOCK,Nada no inventário pode ir para esta vitrine.,Nothing in your inventory can go on this display.
+FLORIST_STOCKED,Colocou %d %s à venda.,Put %d %s on sale.
+FLORIST_NO_ORDERS,Nenhuma encomenda no momento. Novas chegam pela manhã.,No orders right now. New ones arrive in the morning.
+FLORIST_ORDER_REWARD,%s ✿ · +%d reputação,%s ✿ · +%d reputation
+FLORIST_ORDER_DAYS,prazo: %d dias,due in %d days
+FLORIST_ORDER_TODAY,prazo: hoje!,due today!
+FLORIST_DELIVER,Entregar,Deliver
+FLORIST_DELIVERED,Encomenda entregue para %s!,Order delivered to %s!
+FLORIST_UPGRADES,Melhorias da loja,Shop upgrades
+FLORIST_DECORATIONS,Decorações (liberadas pela reputação),Decorations (unlocked by reputation)
+FLORIST_OWNED,Comprado,Owned
+FLORIST_NEEDS_STARS,Requer %d ★,Needs %d ★
+FLORIST_BOUGHT,%s instalado na loja!,%s installed in the shop!
+FLORIST_REPORT_TODAY,"Hoje: %d clientes, %d vendas, %s ✿ (gorjetas: %s ✿).","Today: %d customers, %d sales, %s ✿ (tips: %s ✿)."
+FLORIST_REPORT_TOTAL,"Desde a reabertura: %d vendas, %s ✿, %d buquês montados, %d encomendas entregues.","Since reopening: %d sales, %s ✿, %d bouquets made, %d orders delivered."
+FLORIST_REPORT_RECIPES,Receitas descobertas: %d/%d.,Recipes discovered: %d/%d.
+FLORIST_REPORT_WAITING,Clientes esperando no balcão: %d.,Customers waiting at the counter: %d.
+FLORIST_REPORT_RATE,Movimento esperado hoje: cerca de %d clientes.,Expected traffic today: about %d customers.
+FLORIST_TIPS,Dicas: atender pessoalmente no balcão rende gorjeta e mais reputação. Preços justos (até ~115%) aumentam a reputação; preços acima de 140% espantam clientes. Buquês da estação vendem melhor.,Tips: serving in person at the counter earns tips and more reputation. Fair prices (up to ~115%) raise reputation; prices above 140% scare customers away. Seasonal bouquets sell better.
+FLORIST_SERVED,Atendeu: %s por %s ✿ (+%s ✿ de gorjeta),Served: %s for %s ✿ (+%s ✿ tip)
+FLORIST_RESTORE_TITLE,A floricultura da vovó,Grandma's flower shop
+FLORIST_RESTORE_QUESTION,"A antiga floricultura da vovó precisa de reforma. Reformar agora?
+%s","Grandma's old flower shop needs repairs. Restore it now?
+%s"
+FLORIST_COST_MONEY,%s ✿,%s ✿
+FLORIST_RESTORE_MISSING,Você ainda não tem tudo. Pedras vêm das rochas (picareta) e fibras das ervas daninhas (foice).,You don't have everything yet. Stone comes from rocks (pickaxe) and fiber from weeds (scythe).
+FLORIST_RESTORED_TEXT,"As tábuas saem das janelas, as paredes ganham cor e o sininho da porta volta a tocar. A floricultura da vovó está aberta de novo — agora é sua!","The boards come off the windows, the walls get their colour back and the door bell rings again. Grandma's flower shop is open again — now it's yours!"
+DAY_FLORIST_SALES,Floricultura: %d vendas (%s ✿),Flower shop: %d sales (%s ✿)
+DAY_NEW_ORDERS,Nova encomenda!,New order!
+UPG_DISPLAY_2,Segunda vitrine,Second display
+UPG_DISPLAY_2_DESC,+2 espaços de venda.,+2 sale slots.
+UPG_DISPLAY_3,Terceira vitrine,Third display
+UPG_DISPLAY_3_DESC,+2 espaços de venda.,+2 sale slots.
+UPG_SIGN,Letreiro pintado,Painted sign
+UPG_SIGN_DESC,Mais gente nota a loja: +15% de clientes.,More people notice the shop: +15% customers.
+UPG_DIFFUSER,Difusor de lavanda,Lavender diffuser
+UPG_DIFFUSER_DESC,Perfume no ar: +10% de clientes e eles aceitam preços um pouco maiores.,Scent in the air: +10% customers who accept slightly higher prices.
+UPG_PRO_TABLE,Mesa de arranjos profissional,Professional arranging table
+UPG_PRO_TABLE_DESC,Buquês parecem mais caprichados: clientes pagam mais por eles.,Bouquets look more refined: customers pay more for them.
+UPG_DECO_VASE,Vaso de cerâmica,Ceramic vase
+UPG_DECO_VASE_DESC,+5% de clientes.,+5% customers.
+UPG_DECO_GARLAND,Guirlanda de flores,Flower garland
+UPG_DECO_GARLAND_DESC,+7% de clientes.,+7% customers.
+UPG_DECO_CHANDELIER,Lustre de ametista,Amethyst chandelier
+UPG_DECO_CHANDELIER_DESC,+10% de clientes.,+10% customers.
+UPG_DECO_FOUNTAIN,Fonte de mesa,Table fountain
+UPG_DECO_FOUNTAIN_DESC,+12% de clientes.,+12% customers.
+ORDER_NOTE_BIRTHDAY,É aniversário da minha mãe!,It's my mother's birthday!
+ORDER_NOTE_ANNIVERSARY,Para comemorar nosso aniversário de casamento.,To celebrate our wedding anniversary.
+ORDER_NOTE_THANKS,Quero agradecer a uma vizinha querida.,I want to thank a dear neighbour.
+ORDER_NOTE_GET_WELL,Para alegrar um amigo que está doente.,To cheer up a friend who's ill.
+ORDER_NOTE_PARTY,Vamos dar uma festa no sábado!,We're throwing a party on Saturday!
+ORDER_NOTE_SURPRISE,"É surpresa, não conte a ninguém!","It's a surprise, don't tell anyone!"
+WORKBENCH_TITLE,Mesa de arranjos,Arranging table
+WORKBENCH_YOUR_FLOWERS,Suas flores e enfeites (clique para usar):,Your flowers and ornaments (click to use):
+WORKBENCH_CRAFT,Montar buquê,Make bouquet
+WORKBENCH_BOOK,Livro de receitas,Recipe book
+WORKBENCH_PICK,Escolha mais %d item(ns).,Choose %d more item(s).
+WORKBENCH_NO_MATCH,Essa combinação não forma um buquê.,That combination doesn't make a bouquet.
+WORKBENCH_RESULT,"Resultado: %s (%s)
+Valor: %s ✿ · ingredientes: %s ✿","Result: %s (%s)
+Value: %s ✿ · ingredients: %s ✿"
+WORKBENCH_SURPRISE,uma receita nova!,a new recipe!
+WORKBENCH_NEW_RECIPE,Nova receita descoberta: %s!,New recipe discovered: %s!
+WORKBENCH_MADE,Você montou: %s.,You made: %s.
+WORKBENCH_NO_FLOWERS,Você não tem flores. Colha na fazenda ou colete nas regiões.,You have no flowers. Harvest on the farm or forage in the regions.
+WORKBENCH_OR, ou , or 
+CHAT_DELIVERY_ASK,Você trouxe %s? Pode me entregar?,You brought %s? Will you give it to me?
+CHAT_GIVE,Entregar,Hand over
+CHAT_NOT_NOW,Agora não,Not now
+CHAT_ACCEPT,Aceitar,Accept
+CHAT_THANKS,Muito obrigado(a)! Era exatamente o que eu precisava.,Thank you so much! That's exactly what I needed.
+CHAT_EVENT_DONE,Um momento especial com %s.,A special moment with %s.
+QUEST_STARTED,Nova missão: %s,New quest: %s
+QUEST_DONE,Missão concluída: %s,Quest complete: %s
+QUEST_DIARY_PAGE,(+1 página do diário),(+1 diary page)
+DAY_BIRTHDAY,Hoje é aniversário de %s!,It's %s's birthday today!
+DAY_REQUEST,%s fez um pedido,%s made a request
+JOURNAL_TITLE,Diário,Journal
+JOURNAL_TAB_QUESTS,Missões,Quests
+JOURNAL_TAB_DIARY,Diário da vovó,Grandma's diary
+JOURNAL_TAB_VILLAGERS,Moradores,Villagers
+JOURNAL_ACTIVE,Missões ativas,Active quests
+JOURNAL_NO_QUESTS,Nenhuma missão ativa. Converse com os moradores!,No active quests. Talk to the villagers!
+JOURNAL_MAIN,história,story
+JOURNAL_SIDE,pedido de %s,for %s
+JOURNAL_REQUESTS,Pedidos do dia,Daily requests
+JOURNAL_REQUEST,Pedido,Request
+JOURNAL_REQUEST_LINE,%s quer %d %s — %s ✿ (prazo: %d dias),%s wants %d %s — %s ✿ (due in %d days)
+JOURNAL_COMPLETED,Concluídas (%d),Completed (%d)
+JOURNAL_DIARY_TITLE,Páginas encontradas: %d/%d,Pages found: %d/%d
+JOURNAL_DIARY_EMPTY,O diário da vovó está na estante da casa. Leia-o para começar.,Grandma's diary is on the shelf at home. Read it to begin.
+JOURNAL_PAGE,Página %d,Page %d
+JOURNAL_BIRTHDAY,"Aniversário: %s, dia %d","Birthday: %s, day %d"
+JOURNAL_TASTES,Presentes: %s,Gifts: %s
+JOURNAL_NOT_MET,Ainda não se conheceram.,You haven't met yet.
+TASTE_LOVED,ama,loves
+TASTE_LIKED,gosta,likes
+TASTE_NEUTRAL,neutro,neutral
+TASTE_DISLIKED,não gosta,dislikes
+FLOWER_ORCHID,Orquídea,Orchid
+FLOWER_ORCHID_DESC,Delicada e exigente: só cresce na estufa. Volta a florescer.,Delicate and demanding: only grows in the greenhouse. Blooms again.
+FLOWER_PEONY,Peônia,Peony
+FLOWER_PEONY_DESC,"Volumosa e perfumada, rainha dos buquês de primavera.","Lush and fragrant, queen of spring bouquets."
+FLOWER_CHERRY_BLOSSOM,Flor de cerejeira,Cherry blossom
+FLOWER_CHERRY_BLOSSOM_DESC,O símbolo do vale em forma de flor. Volta a florescer.,The valley's symbol as a flower. Blooms again.
+FLOWER_DAHLIA,Dália,Dahlia
+FLOWER_DAHLIA_DESC,"Pétalas em camadas, vermelhas como o pôr do sol de outono.","Layered petals, red as an autumn sunset."
+FLOWER_IRIS,Íris,Iris
+FLOWER_IRIS_DESC,Elegante e azulada. Cresce mais rápido perto da água.,Elegant and bluish. Grows faster near water.
+FLOWER_LOTUS,Flor de lótus,Lotus flower
+FLOWER_LOTUS_DESC,Cultivada a partir das lótus do lago. Ama a água.,Grown from the lake's lotuses. Loves water.
+FLOWER_GOLDEN_ROSE,Rosa-dourada,Golden rose
+FLOWER_GOLDEN_ROSE_DESC,Rara e lendária. Precisa de adubo para florescer.,Rare and legendary. Needs fertiliser to bloom.
+FLOWER_MOON_FLOWER,Flor da Lua,Moon flower
+FLOWER_MOON_FLOWER_DESC,"Floresce no outono e no inverno, pálida como o luar.","Blooms in autumn and winter, pale as moonlight."
+FLOWER_CELESTIAL_LILY,Lírio Celestial,Celestial lily
+FLOWER_CELESTIAL_LILY_DESC,Azul como o céu. Só cresce na estufa.,Blue as the sky. Only grows in the greenhouse.
+FLOWER_BLUE_ORCHID,Orquídea Azul,Blue orchid
+FLOWER_BLUE_ORCHID_DESC,A flor que a vovó sonhou encontrar. Só cresce na estufa.,The flower Grandma dreamed of finding. Only grows in the greenhouse.
+FLOWER_STAR_FLOWER,Flor Estelar,Star flower
+FLOWER_STAR_FLOWER_DESC,Brilha na neve. Só floresce no inverno.,Shines in the snow. Only blooms in winter.
+SPECIAL_GREENHOUSE_ONLY,Especial: só pode ser plantada na estufa.,Special: can only be planted in the greenhouse.
+ITEM_BOUQUET_PEONY,Buquê de Peônias,Peony Bouquet
+ITEM_BOUQUET_PEONY_DESC,Duas peônias e um toque romântico.,Two peonies and a romantic touch.
+ITEM_BOUQUET_ORIENTAL,Arranjo Oriental,Oriental Arrangement
+ITEM_BOUQUET_ORIENTAL_DESC,"Orquídea, íris e lótus.","Orchid, iris and lotus."
+ITEM_BOUQUET_AUTUMN,Arranjo de Outono,Autumn Arrangement
+ITEM_BOUQUET_AUTUMN_DESC,Dálias com um enfeite natural.,Dahlias with a natural ornament.
+ITEM_BOUQUET_BLOSSOM,Buquê de Cerejeira,Cherry Blossom Bouquet
+ITEM_BOUQUET_BLOSSOM_DESC,Flores e um ramo de cerejeira.,Blossoms and a cherry branch.
+ITEM_BOUQUET_CROWN,Coroa Dourada,Golden Crown
+ITEM_BOUQUET_CROWN_DESC,"Rosa-dourada, Flor da Lua e Flor Estelar. Uma obra-prima.","Golden rose, moon flower and star flower. A masterpiece."
+ITEM_BOUQUET_CELESTIAL,Arranjo Celestial,Celestial Arrangement
+ITEM_BOUQUET_CELESTIAL_DESC,"Lírio Celestial, Orquídea Azul e musgo luminoso.","Celestial lily, blue orchid and glowing moss."
+ITEM_BUILD_FENCE,Cerca de madeira,Wooden fence
+ITEM_BUILD_FENCE_DESC,Conecta-se às cercas vizinhas.,Connects to neighbouring fences.
+ITEM_BUILD_PATH,Caminho de pedra,Stone path
+ITEM_BUILD_PATH_DESC,Piso de pedra para trilhas e jardins.,Stone paving for trails and gardens.
+ITEM_BUILD_RAISED_BED,Canteiro elevado,Raised flower bed
+ITEM_BUILD_RAISED_BED_DESC,Um canteiro decorativo cheio de flores.,A decorative bed full of flowers.
+ITEM_BUILD_BENCH,Banco de jardim,Garden bench
+ITEM_BUILD_BENCH_DESC,Para descansar e admirar as flores.,For resting and admiring the flowers.
+ITEM_BUILD_LAMP,Luminária,Lamp post
+ITEM_BUILD_LAMP_DESC,Ilumina o jardim à noite.,Lights the garden at night.
+ITEM_BUILD_VASE,Vaso com planta,Potted plant
+ITEM_BUILD_VASE_DESC,Fica bem dentro ou fora de casa.,Looks good indoors or outdoors.
+ITEM_BUILD_CHERRY_TREE,Muda de cerejeira,Cherry tree sapling
+ITEM_BUILD_CHERRY_TREE_DESC,Uma cerejeira ornamental.,An ornamental cherry tree.
+ITEM_BUILD_OAK_TREE,Muda de carvalho,Oak sapling
+ITEM_BUILD_OAK_TREE_DESC,Uma árvore frondosa para dar sombra.,A leafy tree for shade.
+ITEM_BUILD_FOUNTAIN,Fonte de jardim,Garden fountain
+ITEM_BUILD_FOUNTAIN_DESC,Uma fonte de pedra (3×2).,A stone fountain (3×2).
+ITEM_BUILD_POND,Laguinho,Small pond
+ITEM_BUILD_POND_DESC,Um laguinho 2×2. Flores que amam água crescem mais rápido perto dele.,A 2×2 pond. Water-loving flowers grow faster near it.
+ITEM_BUILD_TABLE,Mesa,Table
+ITEM_BUILD_TABLE_DESC,Móvel para dentro de casa ou da estufa.,Furniture for the house or greenhouse.
+ITEM_BUILD_BOOKSHELF,Estante,Bookshelf
+ITEM_BUILD_BOOKSHELF_DESC,Móvel para dentro de casa ou da estufa.,Furniture for the house or greenhouse.
+ITEM_WATERING_CAN_COPPER,Regador de cobre,Copper watering can
+ITEM_WATERING_CAN_COPPER_DESC,40 cargas e rega 3 canteiros em linha.,40 charges and waters 3 beds in a row.
+ITEM_HOE_STEEL,Enxada de aço,Steel hoe
+ITEM_HOE_STEEL_DESC,Ara 3 canteiros em linha de uma vez.,Tills 3 beds in a row at once.
+CAT_DECORATION,Construção / decoração,Build / decoration
+SHOP_WORKSHOP,Oficina do Bento,Bento's Workshop
+SHOP_WORKSHOP_GREETING,"Hm. Cercas, caminhos, bancos, ferramentas melhores… Traz o material que eu faço.","Hm. Fences, paths, benches, better tools… Bring the materials and I'll make it."
+SHOP_NEEDS_MATERIALS,Faltam materiais.,Missing materials.
+SHOP_NEEDS_LEVEL,Seu nível de jardinagem ainda é baixo.,Your gardening level is too low.
+SHOP_NEEDS_OLD_TOOL,Você precisa da ferramenta antiga para trocar.,You need the old tool to trade in.
+SHOP_LEVEL_TAG,(nível %d),(level %d)
+MSG_NEEDS_GREENHOUSE,Esta flor só cresce na estufa.,This flower only grows in the greenhouse.
+MSG_BUILD_NOT_HERE,Não dá para construir isso aqui.,You can't build that here.
+MSG_BUILD_BAD_GROUND,Esse chão não serve para construir.,This ground isn't suitable for building.
+MSG_BUILD_BLOCKED,Tem algo no caminho.,Something is in the way.
+MAP_GREENHOUSE,Estufa da Vovó,Grandma's Greenhouse
+GREENHOUSE_TITLE,A estufa da vovó,Grandma's greenhouse
+GREENHOUSE_RESTORE_QUESTION,A antiga estufa está em ruínas. Reformar por %s?,The old greenhouse is in ruins. Restore it for %s?
+GREENHOUSE_RESTORE_MISSING,Ainda faltam materiais. Ametistas aparecem nas Montanhas de Lavanda.,Materials are still missing. Amethysts can be found in the Lavender Mountains.
+GREENHOUSE_RESTORED_TEXT,"Vidros novos, plantas e calor de primavera: a estufa respira de novo! Aqui dentro tudo cresce em qualquer estação.","New glass, plants and spring warmth: the greenhouse breathes again! In here everything grows in any season."
+LEVEL_SHORT,Nv. %d,Lv. %d
+LEVEL_UP,Nível de jardinagem %d!,Gardening level %d!
+ACHIEVEMENT_UNLOCKED,Conquista: %s,Achievement: %s
+JOURNAL_TAB_PROGRESS,Conquistas,Achievements
+PROGRESS_LEVEL,Nível de jardinagem %d/%d,Gardening level %d/%d
+PROGRESS_XP,%d XP · próximo nível em %d XP,%d XP · next level at %d XP
+PROGRESS_STATS,Flores colhidas: %d · espécies: %d · buquês: %d · construções: %d · ✿ ganhos: %s,Flowers harvested: %d · species: %d · bouquets: %d · builds: %d · ✿ earned: %s
+PROGRESS_ACHIEVEMENTS,Conquistas %d/%d,Achievements %d/%d

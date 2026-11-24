@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"dahlia"
+name_key = "FLOWER_DAHLIA"
+description_key = "FLOWER_DAHLIA_DESC"
+seasons = Array[int]([1, 2])
+stage_days = PackedInt32Array(1, 2, 2, 2, 2)
+water_need = 1
+sell_price = 150
+seed_price = 55
+rarity = 1
+regrows = false
+regrow_stage = 3
+special = 0
+seed_drop_chance = 0.2
+atlas_row = 9
+min_level = 3
+tags = PackedStringArray("autumn")

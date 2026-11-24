@@ -1,0 +1,713 @@
+{
+	"version": 1,
+	"dialogue": {
+		"celeste": {
+			"intro": {
+				"pt_BR": "Oh! Você deve ser a neta da Amélia! Eu sou a Celeste, do Mercado. Sua avó era minha melhor amiga… Que alegria ver a fazenda viva de novo!",
+				"en": "Oh! You must be Amélia's grandchild! I'm Celeste, from the Market. Your grandmother was my best friend… What a joy to see the farm alive again!"
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Bom dia, querida! Já tomou café? Nunca se trabalha bem de barriga vazia.",
+						"en": "Good morning, dear! Had breakfast yet? Nobody works well on an empty stomach."
+					},
+					{
+						"pt_BR": "Se precisar de sementes, o Mercado está sempre aberto para você.",
+						"en": "If you need seeds, the Market is always open for you."
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Sabe que você tem o mesmo jeito da Amélia de franzir o nariz quando pensa? Igualzinho!",
+						"en": "Did you know you wrinkle your nose when thinking, just like Amélia? Exactly the same!"
+					},
+					{
+						"pt_BR": "Separei umas sementes boas para você. Mas não conte para os outros clientes, hein?",
+						"en": "I set aside some good seeds for you. Don't tell the other customers, alright?"
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Ter você por perto é como ter um pedacinho da Amélia de volta. Obrigada, de coração.",
+						"en": "Having you around is like having a little piece of Amélia back. Thank you, from the bottom of my heart."
+					},
+					{
+						"pt_BR": "Quando eu ficar velhinha de verdade, quero passar as tardes na sua floricultura, combinado?",
+						"en": "When I'm truly old, I want to spend my afternoons in your flower shop, deal?"
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "Primavera! A época favorita da sua avó. Ela dizia que o vale acordava sorrindo.",
+					"en": "Spring! Your grandmother's favourite. She said the valley woke up smiling."
+				},
+				"1": {
+					"pt_BR": "Com esse calor, um chá gelado de lavanda é tudo de bom.",
+					"en": "In this heat, an iced lavender tea is just perfect."
+				},
+				"2": {
+					"pt_BR": "O outono deixa tudo com cor de doce de abóbora, não acha?",
+					"en": "Autumn turns everything the colour of pumpkin jam, doesn't it?"
+				},
+				"3": {
+					"pt_BR": "No inverno a Amélia cuidava das mudas dentro de casa, perto do fogão.",
+					"en": "In winter Amélia kept her seedlings indoors, close to the stove."
+				}
+			},
+			"rain": {
+				"pt_BR": "Chuva boa! Suas flores devem estar felizes hoje.",
+				"en": "Lovely rain! Your flowers must be happy today."
+			},
+			"birthday": {
+				"pt_BR": "Você lembrou do meu aniversário? Ai, que coisa mais linda!",
+				"en": "You remembered my birthday? Oh, how lovely!"
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Lavanda! Você me conhece tão bem… Obrigada, querida!",
+					"en": "Lavender! You know me so well… Thank you, dear!"
+				},
+				"liked": {
+					"pt_BR": "Que gentileza! Vou deixar no balcão para alegrar o Mercado.",
+					"en": "How kind! I'll put it on the counter to brighten the Market."
+				},
+				"neutral": {
+					"pt_BR": "Obrigada, querida.",
+					"en": "Thank you, dear."
+				},
+				"disliked": {
+					"pt_BR": "Ah… obrigada. Vou… encontrar um lugar para isso.",
+					"en": "Oh… thank you. I'll… find a place for it."
+				},
+				"already": {
+					"pt_BR": "Você já me deu um presente hoje! Assim você me mima demais.",
+					"en": "You already gave me a present today! You'll spoil me."
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Celeste segura uma xícara entre as mãos e sorri, com os olhos marejados.",
+					"en": "Celeste holds a cup in both hands and smiles, her eyes misty."
+				},
+				{
+					"pt_BR": "“A Amélia e eu nos conhecemos na escola, sabia? Ela trocava o lanche dela por sementes. Todo mundo achava estranho.”",
+					"en": "“Amélia and I met at school, you know? She traded her lunch for seeds. Everyone thought it was odd.”"
+				},
+				{
+					"pt_BR": "“Ela me ensinou que flor não se cultiva só com água — se cultiva com paciência. Tome, eram dela.” Celeste te entrega um pacote antigo de sementes de lírio.",
+					"en": "“She taught me flowers aren't grown with water alone — they're grown with patience. Here, these were hers.” Celeste hands you an old packet of lily seeds."
+				}
+			],
+			"event_reward": [
+				[
+					"seed_lily",
+					4
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Querida, posso te pedir um favor? Meu estoque de lavanda acabou e não fico sem meu chá. Você me traria 5 lavandas?",
+				"en": "Dear, may I ask a favour? I've run out of lavender and I can't live without my tea. Would you bring me 5 lavenders?"
+			},
+			"quest_progress": {
+				"pt_BR": "Ainda esperando aquelas lavandas, viu? Sem pressa!",
+				"en": "Still waiting for that lavender, alright? No rush!"
+			},
+			"quest_done": {
+				"pt_BR": "Que perfume! Vou fazer chá para nós duas amanhã. Muito obrigada!",
+				"en": "What a scent! I'll make tea for both of us tomorrow. Thank you so much!"
+			}
+		},
+		"livia": {
+			"intro": {
+				"pt_BR": "Oi, oi! Você é a nova vizinha da fazenda? Eu sou a Lívia, da cafeteria! Passa lá que o primeiro pedaço de bolo é por minha conta!",
+				"en": "Hi, hi! You're the new neighbour from the farm? I'm Lívia, from the café! Drop by, the first slice of cake is on me!"
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Hoje tem bolo de fubá saindo do forno!",
+						"en": "Cornmeal cake coming out of the oven today!"
+					},
+					{
+						"pt_BR": "Já reparou como o vale cheira a flor de manhã cedo?",
+						"en": "Have you noticed how the valley smells of flowers early in the morning?"
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Guardei uma fatia para você. Não, não aceito recusa!",
+						"en": "I saved you a slice. No, I won't take no for an answer!"
+					},
+					{
+						"pt_BR": "Estou testando uma receita com pétalas cristalizadas. Quer ser minha provadora oficial?",
+						"en": "I'm testing a recipe with candied petals. Want to be my official taster?"
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Você é minha pessoa favorita no vale. Só não conte para o Tomás, ele ia ficar sem graça.",
+						"en": "You're my favourite person in the valley. Just don't tell Tomás, he'd get flustered."
+					},
+					{
+						"pt_BR": "Um dia quero abrir uma confeitaria do lado da sua floricultura. Doces e flores, imagina!",
+						"en": "Someday I want to open a sweet shop next to your flower shop. Sweets and flowers, imagine!"
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "Primavera é época de bolo de morango!",
+					"en": "Spring is strawberry cake season!"
+				},
+				"1": {
+					"pt_BR": "No verão eu faço sorvete de hibisco. Vem provar!",
+					"en": "In summer I make hibiscus ice cream. Come try some!"
+				},
+				"2": {
+					"pt_BR": "Outono = torta de maçã com canela. Não tem como errar.",
+					"en": "Autumn = apple cinnamon pie. Can't go wrong."
+				},
+				"3": {
+					"pt_BR": "Chocolate quente com marshmallow é meu jeito de sobreviver ao inverno.",
+					"en": "Hot chocolate with marshmallows is how I survive winter."
+				}
+			},
+			"rain": {
+				"pt_BR": "Dia de chuva é dia de cafeteria cheia. Adoro!",
+				"en": "Rainy days mean a full café. I love it!"
+			},
+			"birthday": {
+				"pt_BR": "É meu aniversário! Hoje até eu mereço um bolo!",
+				"en": "It's my birthday! Today even I deserve a cake!"
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Rosas?! Era exatamente o que eu precisava para o meu bolo! Você é demais!",
+					"en": "Roses?! Exactly what I needed for my cake! You're the best!"
+				},
+				"liked": {
+					"pt_BR": "Que lindo! Vai virar decoração de vitrine.",
+					"en": "How pretty! It'll decorate my window."
+				},
+				"neutral": {
+					"pt_BR": "Obrigada! Muito gentil.",
+					"en": "Thanks! Very kind."
+				},
+				"disliked": {
+					"pt_BR": "Hum… isso não combina muito com bolo, né?",
+					"en": "Hmm… this doesn't really go with cake, does it?"
+				},
+				"already": {
+					"pt_BR": "Você já me deu algo hoje! Guarda para amanhã!",
+					"en": "You already gave me something today! Save it for tomorrow!"
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Lívia aparece com um bolo coberto de pétalas e uma vela acesa no meio.",
+					"en": "Lívia shows up with a cake covered in petals and a lit candle in the middle."
+				},
+				{
+					"pt_BR": "“Não é aniversário de ninguém, eu sei. É que hoje faz um ano que abri a cafeteria… e a primeira cliente foi a sua avó.”",
+					"en": "“It's nobody's birthday, I know. It's just that today the café turns one… and my very first customer was your grandmother.”"
+				},
+				{
+					"pt_BR": "“Ela pediu um chá e disse que eu tinha mãos de jardineira. Acho que ela quis dizer que eu tinha paciência.” Lívia ri e te entrega a receita do bolo de rosas.",
+					"en": "“She ordered tea and said I had a gardener's hands. I think she meant I was patient.” Lívia laughs and hands you the rose cake recipe."
+				}
+			],
+			"event_reward": [
+				[
+					"seed_rose",
+					4
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Preciso de um favorzinho: estou quase acertando o bolo de rosas perfeito! Me traz 3 rosas?",
+				"en": "I need a little favour: I'm close to the perfect rose cake! Can you bring me 3 roses?"
+			},
+			"quest_progress": {
+				"pt_BR": "E as rosas? Meu bolo está esperando!",
+				"en": "And the roses? My cake is waiting!"
+			},
+			"quest_done": {
+				"pt_BR": "Perfeitas! Vou batizar o bolo com o nome da sua fazenda. Obrigada!",
+				"en": "Perfect! I'll name the cake after your farm. Thank you!"
+			}
+		},
+		"tomas": {
+			"intro": {
+				"pt_BR": "Ah… olá. Eu sou o Tomás, cuido da biblioteca. Sua avó era… nossa leitora mais assídua. Se quiser saber algo sobre o vale, é só perguntar.",
+				"en": "Ah… hello. I'm Tomás, I look after the library. Your grandmother was… our most frequent reader. If you want to know anything about the valley, just ask."
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Oi. Hum. Bom dia.",
+						"en": "Hi. Um. Good morning."
+					},
+					{
+						"pt_BR": "Você sabia que o vale tem flores que só crescem no Bosque das Flores Raras?",
+						"en": "Did you know the valley has flowers that only grow in the Grove of Rare Flowers?"
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Encontrei uma anotação da sua avó num livro de botânica. A letra dela é inconfundível.",
+						"en": "I found a note from your grandmother in a botany book. Her handwriting is unmistakable."
+					},
+					{
+						"pt_BR": "Estou escrevendo uma história do vale. Talvez… você possa me ajudar com um capítulo.",
+						"en": "I'm writing a history of the valley. Maybe… you could help me with a chapter."
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Conversar com você é fácil. Não é fácil para mim conversar com as pessoas, sabe?",
+						"en": "Talking to you is easy. Talking to people isn't easy for me, you know?"
+					},
+					{
+						"pt_BR": "Reservei a melhor mesa da biblioteca para você. A da janela.",
+						"en": "I reserved the best table in the library for you. The one by the window."
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "As violetas silvestres voltaram à floresta. Eu anoto todo ano quando elas aparecem.",
+					"en": "The wild violets are back in the forest. I write down every year when they appear."
+				},
+				"1": {
+					"pt_BR": "No verão as lótus florescem no lago. Dizem que a Florence plantou as primeiras.",
+					"en": "In summer, lotuses bloom on the lake. They say Florence planted the first ones."
+				},
+				"2": {
+					"pt_BR": "Outono é a melhor época para ler perto da lareira… e procurar cogumelos.",
+					"en": "Autumn is the best time to read by the fire… and hunt for mushrooms."
+				},
+				"3": {
+					"pt_BR": "O musgo do bosque brilha mais forte no inverno. Ninguém sabe explicar por quê.",
+					"en": "The grove's moss glows brighter in winter. Nobody knows why."
+				}
+			},
+			"rain": {
+				"pt_BR": "Chuva é ótima. Ninguém estranha se eu passar o dia todo lendo.",
+				"en": "Rain is great. Nobody finds it odd if I read all day."
+			},
+			"birthday": {
+				"pt_BR": "Ah! Você… lembrou do meu aniversário. Eu não sei o que dizer. Obrigado.",
+				"en": "Oh! You… remembered my birthday. I don't know what to say. Thank you."
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Isso é… incrível. Vou catalogar e guardar com cuidado. Obrigado!",
+					"en": "This is… incredible. I'll catalogue it and keep it carefully. Thank you!"
+				},
+				"liked": {
+					"pt_BR": "Que interessante! Obrigado.",
+					"en": "How interesting! Thank you."
+				},
+				"neutral": {
+					"pt_BR": "Ah, obrigado.",
+					"en": "Oh, thanks."
+				},
+				"disliked": {
+					"pt_BR": "Hum… eu não sei bem o que fazer com isso.",
+					"en": "Um… I don't quite know what to do with this."
+				},
+				"already": {
+					"pt_BR": "Você já me deu algo hoje. Um é suficiente, de verdade.",
+					"en": "You already gave me something today. One is plenty, really."
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Tomás abre um livro antigo com cuidado. Dentro, uma flor prensada, azul como o céu.",
+					"en": "Tomás carefully opens an old book. Inside lies a pressed flower, blue as the sky."
+				},
+				{
+					"pt_BR": "“Estava no meio do diário de visitas da biblioteca. Junto, um bilhete da sua avó: ‘Para quem achar — a Orquídea Azul existe. Procure onde a água encontra a pedra.’”",
+					"en": "“It was inside the library's visitor log. With it, a note from your grandmother: ‘For whoever finds this — the Blue Orchid exists. Look where water meets stone.’”"
+				},
+				{
+					"pt_BR": "“Eu nunca tive coragem de procurar sozinho. Mas… acho que ela queria que você soubesse.” Tomás te entrega o bilhete e um pouco de musgo luminoso.",
+					"en": "“I never had the courage to look on my own. But… I think she wanted you to know.” Tomás gives you the note and some glowing moss."
+				}
+			],
+			"event_reward": [
+				[
+					"forage_glow_moss",
+					2
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Estou escrevendo sobre os marcos antigos do vale. Você encontraria três deles para mim? Pode ser qualquer um.",
+				"en": "I'm writing about the valley's old landmarks. Would you find three of them for me? Any of them will do."
+			},
+			"quest_progress": {
+				"pt_BR": "Já encontrou os marcos? Estou ansioso para ouvir.",
+				"en": "Found the landmarks yet? I'm eager to hear about them."
+			},
+			"quest_done": {
+				"pt_BR": "Três marcos! Vou dedicar o capítulo a você. Obrigado de verdade.",
+				"en": "Three landmarks! I'll dedicate the chapter to you. Thank you, truly."
+			}
+		},
+		"benicio": {
+			"intro": {
+				"pt_BR": "Ora, ora, sangue da Amélia! Sente aqui, criança. Benício, pescador aposentado e contador de causos às suas ordens.",
+				"en": "Well, well, Amélia's blood! Sit down, child. Benício, retired fisherman and teller of tales, at your service."
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Os peixes estão preguiçosos hoje. Igual a mim.",
+						"en": "The fish are lazy today. Just like me."
+					},
+					{
+						"pt_BR": "Esse lago já viu muita coisa, sabia? Mais do que eu.",
+						"en": "This lake has seen a lot, you know? More than I have."
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Sua avó vinha aqui ler no píer. Dizia que a água ajudava a pensar.",
+						"en": "Your grandmother used to read on the pier. She said water helped her think."
+					},
+					{
+						"pt_BR": "Já te contei da vez que o Francisco caiu no lago tentando pegar uma lótus para ela? Hahaha!",
+						"en": "Did I ever tell you about the time Francisco fell in the lake trying to pick a lotus for her? Hahaha!"
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Você é a melhor coisa que aconteceu ao vale em muito tempo, viu?",
+						"en": "You're the best thing that's happened to this valley in a long time, you hear?"
+					},
+					{
+						"pt_BR": "Quando eu partir, quero que alguém conte minhas histórias. Pode ser você?",
+						"en": "When I'm gone, I want someone to tell my stories. Could it be you?"
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "Primavera: as cerejeiras se olham no lago. Coisa mais bonita.",
+					"en": "Spring: the cherry trees look at themselves in the lake. Beautiful thing."
+				},
+				"1": {
+					"pt_BR": "Girassol no verão, conchas na areia. A vida é boa.",
+					"en": "Sunflowers in summer, shells in the sand. Life is good."
+				},
+				"2": {
+					"pt_BR": "A neblina do outono esconde o outro lado do lago. Dá até medo.",
+					"en": "The autumn fog hides the other side of the lake. Almost spooky."
+				},
+				"3": {
+					"pt_BR": "No inverno o lago congela nas bordas. Fico no café, aquecendo os ossos.",
+					"en": "In winter the lake freezes at the edges. I stay at the café, warming my bones."
+				}
+			},
+			"rain": {
+				"pt_BR": "Chuva? Ótimo dia para um café e uma boa história.",
+				"en": "Rain? Great day for a coffee and a good story."
+			},
+			"birthday": {
+				"pt_BR": "Meu aniversário? Ninguém lembra disso faz anos. Obrigado, criança.",
+				"en": "My birthday? Nobody's remembered in years. Thank you, child."
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Uma concha dessas! Vai para a minha coleção, do lado da que a Amélia me deu.",
+					"en": "A shell like this! It's going in my collection, next to the one Amélia gave me."
+				},
+				"liked": {
+					"pt_BR": "Muito obrigado, criança.",
+					"en": "Thank you very much, child."
+				},
+				"neutral": {
+					"pt_BR": "Hm. Obrigado.",
+					"en": "Hm. Thanks."
+				},
+				"disliked": {
+					"pt_BR": "Isso aí não serve nem de isca, hein.",
+					"en": "That's not even good as bait, eh."
+				},
+				"already": {
+					"pt_BR": "Calma, criança, um presente por dia já está ótimo.",
+					"en": "Easy, child, one present a day is plenty."
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Benício tira um medalhão do bolso. Dentro, uma foto antiga de um casal jovem no píer.",
+					"en": "Benício takes a locket from his pocket. Inside, an old photo of a young couple on the pier."
+				},
+				{
+					"pt_BR": "“Amélia e Francisco, no dia em que ele a pediu em casamento. Eu tirei a foto — e derrubei a câmera no lago logo depois.”",
+					"en": "“Amélia and Francisco, the day he proposed. I took the picture — and dropped the camera in the lake right after.”"
+				},
+				{
+					"pt_BR": "“Fica com você. Ela ia querer que ficasse na fazenda.” Ele te entrega o medalhão e umas sementes de girassol.",
+					"en": "“You keep it. She'd want it at the farm.” He hands you the locket and some sunflower seeds."
+				}
+			],
+			"event_reward": [
+				[
+					"seed_sunflower",
+					5
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Dizem que conchas trazem sorte para pescador. Me traz 5 delas da praia do lago?",
+				"en": "They say shells bring fishermen luck. Bring me 5 from the lake beach?"
+			},
+			"quest_progress": {
+				"pt_BR": "Cadê minhas conchinhas da sorte?",
+				"en": "Where are my lucky shells?"
+			},
+			"quest_done": {
+				"pt_BR": "Agora sim! Vou pegar o maior peixe da minha vida. Obrigado!",
+				"en": "Now we're talking! I'll catch the biggest fish of my life. Thanks!"
+			}
+		},
+		"aurora": {
+			"intro": {
+				"pt_BR": "Oi! Desculpa, estava concentrada nessa borboleta. Sou a Aurora, pintora. Cheguei ao vale há pouco, como você!",
+				"en": "Hi! Sorry, I was focused on this butterfly. I'm Aurora, a painter. I arrived in the valley recently, like you!"
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Olha a luz agora! Perfeita para pintar.",
+						"en": "Look at the light right now! Perfect for painting."
+					},
+					{
+						"pt_BR": "Ainda estou aprendendo o nome de todas as flores daqui.",
+						"en": "I'm still learning the names of all the flowers here."
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Fiz um esboço da sua fazenda vista do alto das montanhas. Quer ver?",
+						"en": "I sketched your farm as seen from the mountains. Want to see?"
+					},
+					{
+						"pt_BR": "Você tem olho para cores. Seus buquês parecem pinturas.",
+						"en": "You have an eye for colour. Your bouquets look like paintings."
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Vim para o vale procurando inspiração. Acho que encontrei mais que isso.",
+						"en": "I came to the valley looking for inspiration. I think I found more than that."
+					},
+					{
+						"pt_BR": "Minha próxima exposição vai se chamar ‘Florence Valley’. Você vai estar nela.",
+						"en": "My next exhibition will be called ‘Florence Valley’. You'll be in it."
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "As borboletas voltaram! Passo o dia inteiro no jardim.",
+					"en": "The butterflies are back! I spend all day in the garden."
+				},
+				"1": {
+					"pt_BR": "O amarelo dos girassóis no verão é impossível de reproduzir na tela.",
+					"en": "The yellow of summer sunflowers is impossible to put on canvas."
+				},
+				"2": {
+					"pt_BR": "Outono é a estação dos tons quentes. Minha paleta adora.",
+					"en": "Autumn is the season of warm tones. My palette loves it."
+				},
+				"3": {
+					"pt_BR": "A neve deixa tudo em branco… como uma tela nova.",
+					"en": "Snow turns everything white… like a fresh canvas."
+				}
+			},
+			"rain": {
+				"pt_BR": "Chuva não combina com aquarela. Hoje fico na biblioteca estudando.",
+				"en": "Rain and watercolour don't mix. Today I'm studying at the library."
+			},
+			"birthday": {
+				"pt_BR": "Meu aniversário! Que presente lindo, vou pintar um quadro dele.",
+				"en": "My birthday! What a lovely present, I'll paint a picture of it."
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Que cor incrível! Isso vai direto para a minha próxima pintura!",
+					"en": "What an incredible colour! This is going straight into my next painting!"
+				},
+				"liked": {
+					"pt_BR": "Lindo! Obrigada!",
+					"en": "Beautiful! Thank you!"
+				},
+				"neutral": {
+					"pt_BR": "Ah, obrigada!",
+					"en": "Oh, thank you!"
+				},
+				"disliked": {
+					"pt_BR": "Hum… isso não me inspira muito.",
+					"en": "Hmm… this doesn't inspire me much."
+				},
+				"already": {
+					"pt_BR": "Você já me deu um presente hoje!",
+					"en": "You already gave me a present today!"
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Aurora vira o cavalete: é uma pintura da floricultura, cheia de flores e luz.",
+					"en": "Aurora turns her easel around: it's a painting of the flower shop, full of flowers and light."
+				},
+				{
+					"pt_BR": "“Pintei como imagino que era no tempo da sua avó. E como eu acho que vai ser com você.”",
+					"en": "“I painted it as I imagine it was in your grandmother's time. And how I think it'll be with you.”"
+				},
+				{
+					"pt_BR": "“É um presente. Pendure onde quiser.” Ela também te dá um cristal de ametista que achou nas montanhas.",
+					"en": "“It's a gift. Hang it wherever you like.” She also gives you an amethyst crystal she found in the mountains."
+				}
+			],
+			"event_reward": [
+				[
+					"forage_amethyst",
+					2
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Preciso de um modelo para minha próxima pintura: um arranjo só com flores silvestres. Você montaria um para mim?",
+				"en": "I need a model for my next painting: an arrangement of wildflowers only. Would you make one for me?"
+			},
+			"quest_progress": {
+				"pt_BR": "Meu cavalete está esperando aquele arranjo silvestre!",
+				"en": "My easel is waiting for that wildflower arrangement!"
+			},
+			"quest_done": {
+				"pt_BR": "Perfeito! Vai ser a obra principal da exposição. Obrigada!",
+				"en": "Perfect! It'll be the centrepiece of the exhibition. Thank you!"
+			}
+		},
+		"bento": {
+			"intro": {
+				"pt_BR": "Hm. Você é a da fazenda da Amélia. Bento, da oficina. Se precisar consertar alguma coisa… bom, eu vejo.",
+				"en": "Hm. You're the one from Amélia's farm. Bento, from the workshop. If you need something fixed… well, I'll take a look."
+			},
+			"greet": {
+				"0": [
+					{
+						"pt_BR": "Hm. Dia.",
+						"en": "Hm. Morning."
+					},
+					{
+						"pt_BR": "A praça já foi o orgulho do vale. Hoje… está precisando de cuidado.",
+						"en": "The square used to be the valley's pride. Now… it needs some care."
+					}
+				],
+				"3": [
+					{
+						"pt_BR": "Até que você trabalha direito. Pra alguém da cidade.",
+						"en": "You actually work properly. For a city person."
+					},
+					{
+						"pt_BR": "Consertei o portão da sua fazenda. Não precisa agradecer. Sério, não precisa.",
+						"en": "I fixed your farm gate. No need to thank me. Really, don't."
+					}
+				],
+				"6": [
+					{
+						"pt_BR": "Sua avó me ajudou quando eu cheguei aqui sem nada. Ajudar você é o mínimo.",
+						"en": "Your grandmother helped me when I arrived here with nothing. Helping you is the least I can do."
+					},
+					{
+						"pt_BR": "Não conta pra ninguém que eu sorri hoje.",
+						"en": "Don't tell anyone I smiled today."
+					}
+				]
+			},
+			"season": {
+				"0": {
+					"pt_BR": "Primavera: hora de consertar tudo que o inverno estragou.",
+					"en": "Spring: time to fix everything winter broke."
+				},
+				"1": {
+					"pt_BR": "Calor desse jeito e eu aqui serrando madeira. Hm.",
+					"en": "Heat like this and here I am sawing wood. Hm."
+				},
+				"2": {
+					"pt_BR": "Outono é bom pra trabalhar. Nem quente, nem frio.",
+					"en": "Autumn is good for working. Not hot, not cold."
+				},
+				"3": {
+					"pt_BR": "No inverno eu faço brinquedos de madeira pras crianças do vale.",
+					"en": "In winter I make wooden toys for the valley's children."
+				}
+			},
+			"rain": {
+				"pt_BR": "Chuva. Ótimo. Mais goteira pra consertar.",
+				"en": "Rain. Great. More leaks to fix."
+			},
+			"birthday": {
+				"pt_BR": "...Como você sabia? Hm. Obrigado.",
+				"en": "...How did you know? Hm. Thanks."
+			},
+			"gift": {
+				"loved": {
+					"pt_BR": "Isso sim é útil! Obrigado. De verdade.",
+					"en": "Now that's useful! Thanks. Really."
+				},
+				"liked": {
+					"pt_BR": "Hm. Serve. Obrigado.",
+					"en": "Hm. That'll do. Thanks."
+				},
+				"neutral": {
+					"pt_BR": "Hm.",
+					"en": "Hm."
+				},
+				"disliked": {
+					"pt_BR": "Flores? Pra mim? ...Não.",
+					"en": "Flowers? For me? ...No."
+				},
+				"already": {
+					"pt_BR": "Já me deu coisa hoje. Chega.",
+					"en": "You already gave me something today. Enough."
+				}
+			},
+			"event": [
+				{
+					"pt_BR": "Bento te leva até a praça e aponta para os canteiros vazios ao redor da fonte.",
+					"en": "Bento takes you to the square and points at the empty planters around the fountain."
+				},
+				{
+					"pt_BR": "“Fui eu que fiz esses canteiros, vinte anos atrás. A Amélia plantava flores novas a cada estação. Depois que ela adoeceu, ninguém cuidou mais.”",
+					"en": "“I built those planters twenty years ago. Amélia planted new flowers every season. After she fell ill, nobody looked after them.”"
+				},
+				{
+					"pt_BR": "“Se um dia você quiser… a gente arruma a praça junto.” Ele te entrega umas pinhas. “Pra decorar. Sei lá.”",
+					"en": "“If you ever want to… we could fix the square together.” He hands you some pinecones. “To decorate. Whatever.”"
+				}
+			],
+			"event_reward": [
+				[
+					"forage_pinecone",
+					4
+				]
+			],
+			"quest_offer": {
+				"pt_BR": "Tô precisando de pedra pra reforçar a oficina. Me traz 15? Eu pago.",
+				"en": "I need stone to reinforce the workshop. Bring me 15? I'll pay."
+			},
+			"quest_progress": {
+				"pt_BR": "E as pedras?",
+				"en": "And the stone?"
+			},
+			"quest_done": {
+				"pt_BR": "Boa. Isso vai segurar a oficina por mais vinte anos. Obrigado.",
+				"en": "Good. That'll hold the workshop for another twenty years. Thanks."
+			}
+		}
+	}
+}

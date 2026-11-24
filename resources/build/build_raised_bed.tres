@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"build_raised_bed"
+name_key = "ITEM_BUILD_RAISED_BED"
+description_key = "ITEM_BUILD_RAISED_BED_DESC"
+category = 6
+max_stack = 99
+sell_price = 30
+icon_coords = Vector2i(2, 5)
+tags = PackedStringArray("build")
+place_scene = "res://scenes/objects/raised_bed.tscn"
+place_floor = &""
+footprint = Rect2i(0, 0, 1, 1)
+place_where = &"outdoor"
+buy_price = 80

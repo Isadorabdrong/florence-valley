@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"star_flower"
+name_key = "FLOWER_STAR_FLOWER"
+description_key = "FLOWER_STAR_FLOWER_DESC"
+seasons = Array[int]([3])
+stage_days = PackedInt32Array(2, 2, 3, 3, 2)
+water_need = 0
+sell_price = 650
+seed_price = 220
+rarity = 2
+regrows = false
+regrow_stage = 3
+special = 0
+seed_drop_chance = 0.06
+atlas_row = 16
+min_level = 6
+tags = PackedStringArray("rare", "winter")

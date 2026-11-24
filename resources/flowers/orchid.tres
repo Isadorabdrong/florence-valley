@@ -1,0 +1,22 @@
+[gd_resource type="Resource" script_class="FlowerData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/farming/flower_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"orchid"
+name_key = "FLOWER_ORCHID"
+description_key = "FLOWER_ORCHID_DESC"
+seasons = Array[int]([0, 1, 2, 3])
+stage_days = PackedInt32Array(2, 2, 2, 2, 2)
+water_need = 1
+sell_price = 180
+seed_price = 70
+rarity = 1
+regrows = true
+regrow_stage = 3
+special = 3
+seed_drop_chance = 0.1
+atlas_row = 6
+min_level = 3
+tags = PackedStringArray("elegant")

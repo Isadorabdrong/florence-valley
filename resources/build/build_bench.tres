@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/inventory/item_data.gd" id="1"]
+
+[resource]
+script = ExtResource("1")
+id = &"build_bench"
+name_key = "ITEM_BUILD_BENCH"
+description_key = "ITEM_BUILD_BENCH_DESC"
+category = 6
+max_stack = 99
+sell_price = 40
+icon_coords = Vector2i(3, 5)
+tags = PackedStringArray("build")
+place_scene = "res://scenes/objects/bench.tscn"
+place_floor = &""
+footprint = Rect2i(-1, 0, 2, 1)
+place_where = &"outdoor"
+buy_price = 120
